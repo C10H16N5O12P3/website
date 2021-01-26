@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<script src="script.js"></script>
+
 <?php //set the language
 
 $lang="fr";
@@ -19,7 +19,7 @@ $json=file_get_contents("languages/".$lang.".json");
 $txt = json_decode($json);
 ?>
 
-<nav>
+<nav id="nav">
 <ul>
   <li><a href="#home" id="play_button"><?php echo ($txt->{'buttons'})[0]?></a></li>
   <li class="dropdown">
@@ -42,5 +42,19 @@ include "content/home.php"
 </div>
 
 <footer></footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  nav = document.getElementById("nav")
+  let y = 1 + window.scrollY ;
+  y = y < 1 ? 1 : y ; 
+  if(y<=1){ //scrolling down
+     nav.style.backgroundColor="transparent";
+  }
+  else{ //scrolling up
+    nav.style.backgroundColor="inherit "; 
+  }
+})
+</script>
 </body>
 </html>
