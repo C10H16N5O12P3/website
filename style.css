@@ -19,6 +19,7 @@ nav{
   margin-bottom: 0px;
   font-family: var(--font);
   z-index: 3;
+  transition: background-color 0.4s;
 }
 ul {
   list-style-type: none;
