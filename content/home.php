@@ -1,4 +1,17 @@
 
+<script>
+nav = document.getElementById("nav"); 
+nav.style.backgroundColor="transparent"; 
+window.addEventListener('scroll', () => {
+  let y = window.scrollY ; 
+  if(y<500){ //scrolling down
+    nav.style.backgroundColor="transparent"; 
+  }
+  else{ //scrolling up
+    nav.style.backgroundColor="#FFE5D0";
+  }
+})
+</script>
 <div class="background"></div> 
 <div class="center-box">
     <div id="bigtitle">Beyond Styx</div>
@@ -31,15 +44,4 @@
 
 </div>
 
-<script>
-window.addEventListener('scroll', () => {
-  nav = document.getElementById("nav")
-  let y = window.scrollY ; 
-  if(y<500){ //scrolling down
-    nav.style.backgroundColor="transparent"; 
-  }
-  else{ //scrolling up
-    nav.style.backgroundColor="#FFE5D0";
-  }
-})
-</script>
+
