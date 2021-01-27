@@ -48,13 +48,12 @@ include "content/home.php"
 <script>
 window.addEventListener('scroll', () => {
   nav = document.getElementById("nav")
-  let y = 1 + window.scrollY ;
-  y = y < 1 ? 1 : y ; 
-  if(y<=1){ //scrolling down
-     nav.style.backgroundColor="transparent";
+  let y = 1 + window.scrollY ; 
+  if(y>=500){ //scrolling down
+     nav.style.backgroundColor="#FFE5D0";
   }
   else{ //scrolling up
-    nav.style.backgroundColor="inherit"; 
+    nav.style.backgroundColor="transparent"; 
   }
 })
 </script>

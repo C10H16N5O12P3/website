@@ -17,9 +17,8 @@ nav{
   position: sticky;
   top:0px;
   margin-bottom: 0px;
-  background-color: var(--light-pink);
   font-family: var(--font);
-  z-index: 2;
+  z-index: 3;
 }
 ul {
   list-style-type: none;
@@ -56,7 +55,7 @@ li.dropdown {
   background-color: var(--dark-pink);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 3;
+  z-index: 2 ;
 }
 
 .dropdown-content a {

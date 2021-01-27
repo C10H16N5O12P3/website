@@ -1,4 +1,16 @@
 {
     "buttons" : ["Play", "Explore"], 
-    "dropdown" : ["Discover the game", "Team Presentation", "Switch to french"]
+    "dropdown" : ["Discover the game", "Team Presentation", "Switch to french"],
+    "presentation" : [
+        {
+            "title" : "Stratégie",
+            "txt_presentation" : "Dans animal crossing new leaf blabla il est vraiment bien"
+        },
+        {
+            "title" : "Equipe",
+            "txt_presentation": "Joue en équipe blabla tu connais"
+        }
+    ],
+
+    "footer" : " "
 }
