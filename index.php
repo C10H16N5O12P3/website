@@ -19,7 +19,7 @@ $json=file_get_contents("languages/".$lang.".json");
 $txt = json_decode($json);
 ?>
 
-<nav id="nav">
+<nav id="nav" style="background-color: #FFE5D0;">
 <ul>
   <li><a href="#home" id="play_button"><?php echo ($txt->{'buttons'})[0]?></a></li>
   <li class="dropdown">
@@ -45,17 +45,6 @@ include "content/home.php"
   bonjour je suis une page
 </footer>
 
-<script>
-window.addEventListener('scroll', () => {
-  nav = document.getElementById("nav")
-  let y = 1 + window.scrollY ; 
-  if(y>=500){ //scrolling down
-     nav.style.backgroundColor="#FFE5D0";
-  }
-  else{ //scrolling up
-    nav.style.backgroundColor="transparent"; 
-  }
-})
-</script>
+
 </body>
 </html>
