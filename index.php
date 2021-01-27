@@ -41,7 +41,9 @@ include "content/home.php"
 
 </div>
 
-<footer></footer>
+<footer>
+  bonjour je suis une page
+</footer>
 
 <script>
 window.addEventListener('scroll', () => {
