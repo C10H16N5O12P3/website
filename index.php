@@ -52,7 +52,7 @@ window.addEventListener('scroll', () => {
      nav.style.backgroundColor="transparent";
   }
   else{ //scrolling up
-    nav.style.backgroundColor="inherit "; 
+    nav.style.backgroundColor="inherit"; 
   }
 })
 </script>

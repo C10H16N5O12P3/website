@@ -67,7 +67,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: black;}
+.dropdown-content a:hover {background-color: #351800;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -108,7 +108,7 @@ li.dropdown {
   position: absolute;
   top: 500px ;
   text-align: center;
-  color: #000000;
+  color: black;
   font-family: Roboto;
   font-style: normal;
 }
@@ -121,5 +121,27 @@ li.dropdown {
 #description{
   padding-left: 83px;
   padding-right: 83px;
+}
+
+    /*felx presentation*/
+#presentation{
+  background-color: grey;
+  padding-left: 83px;
+  padding-right: 83px;
+}
+.flex{
+  margin-top: 24px ;
+  display: flex;
+  flex-direction: row;
+}
+
+.img_flex{
+  background-color: red ;
+  flex-grow: 2;
+}
+
+.txt_flex{
+  background-color: indigo;
+  flex-grow: 3;
 }
 /*footer*/
