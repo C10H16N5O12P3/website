@@ -5,10 +5,14 @@
     <div id="description"><?php echo ($txt->{'description'})?></div>
     
     <div id="presentation">
-    Introduce
-        <div class="flex">
+    
+    <div class="flex" id="txt_right">
         <div class="img_flex">image</div>
         <div class="txt_flex">texte de présentation</div>
+    </div>
+    <div class="flex" id="txt_left">
+        <div class="txt_flex">texte de présentation</div>
+        <div class="img_flex">image</div>
     </div>
 
 </div>
