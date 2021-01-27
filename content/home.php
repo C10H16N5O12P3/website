@@ -9,7 +9,7 @@
     <div class="flex" id="txt_right">
         <div class="img_flex">image</div> 
         <div class="txt_flex">
-            <span id="bigtitle">Fight freedom</span>
+            <span id="bigtitle">Fightfreedom</span>
             <div>
                 mmmlsdmsdmsdmdmsdms
             </div>
