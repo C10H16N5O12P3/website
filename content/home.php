@@ -9,14 +9,19 @@
     <div class="flex" id="txt_right">
         <div class="img_flex">image</div> 
         <div class="txt_flex">
-            <span id="bigtitle">Fightfreedom</span>
+            <span id="bigtitle"><?php echo $txt->{"presentation"}[0]->{"title"}?></span>
             <div>
-                mmmlsdmsdmsdmdmsdms
+                <?php echo $txt->{"presentation"}[0]->{"txt_presentation"}?>
             </div>
         </div>
     </div>
     <div class="flex" id="txt_left">
-        <div class="txt_flex">texte de présentation</div>
+        <div class="txt_flex">
+            <span id="bigtitle"><?php echo $txt->{"presentation"}[1]->{"title"}?></span>
+            <div>
+                <?php echo $txt->{"presentation"}[1]->{"txt_presentation"}?>
+            </div>
+        </div>
         <div class="img_flex">image</div>
     </div>
 
