@@ -125,25 +125,25 @@ li.dropdown {
 
     /*felx presentation*/
 #presentation{
-  background-color: grey;
+  margin-top: 243px ; /*space betwenn description and presentation*/
   padding-left: 83px;
-  padding-right: 83px;
-  margin-top: 243px ;
+  padding-right: 83px; 
 }
 .flex{
-  margin-top: 24px ;
+  margin-top: 80px ; /*space between flex box*/
   display: flex;
   flex-direction: row;
   height: 236px;
 }
 
 .img_flex{
-  background-color: red ;
   flex: 1 1 35%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .txt_flex{
-  background-color: indigo;
   flex: 1 1 65%; 
 }
 
