@@ -19,7 +19,7 @@ nav{
   margin-bottom: 0px;
   font-family: var(--font);
   z-index: 3 ;
-  transition: background-color 0.4s;
+  transition: background-color 0.4s; /*pb! disparait après presentation*/
 }
 ul {
   list-style-type: none;
@@ -102,7 +102,6 @@ li.dropdown {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 1;
 }
 
 .center-box{
@@ -131,7 +130,7 @@ li.dropdown {
   padding-right: 83px; 
 }
 .flex{
-  margin-top: 80px ; /*space between flex box*/
+  margin-top: 100px ; /*space between flex box*/
   display: flex;
   flex-direction: row;
   height: 236px;
