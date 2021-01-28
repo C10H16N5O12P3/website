@@ -32,7 +32,7 @@ if( isset( $_GET['page'] ) ) {
     <a href="javascript:void(0)" class="dropbtn"><?php echo ($txt->{'buttons'})[1]?></a>
     <div class="dropdown-content">
       <a href="index.php?page=home&amp;lang=<?php echo $lang?>" ><?php echo ($txt->{'dropdown'})[0]?></a>
-      <a href="index.php?page=download&amp;lang=<?php echo $lang?>"><?php echo ($txt->{'dropdown'})[1]?></a>
+      <a href="index.php?page=team&amp;lang=<?php echo $lang?>"><?php echo ($txt->{'dropdown'})[1]?></a>
       <a href="index.php?page=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>"><?php echo ($txt->{'dropdown'})[2]?></a>
     </div>
   </li>

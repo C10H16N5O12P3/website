@@ -155,7 +155,38 @@ li.dropdown {
 .flex[id="txt_left"] .txt_flex{
   text-align: left;
 }
+/*team*/
+.tablecenter{
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  background-color: black;
+}
+.table{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  background-color: grey;
+  color:white; 
+  padding-left: 83px;
+  padding-right: 83px;
+  
+}
 
+.member{
+  flex: 1 1; 
+  text-align: center;
+  display : flex; 
+  flex-direction: column;
+}
+.tableimg{
+  width: 100%;
+  background-color: black;
+}
+.tabletxt{
+  width: 100%;
+  background-color: blue;
+}
 /*footer*/
 footer{
 }
