@@ -48,7 +48,7 @@ include "content/".$page.".php"
 </div>
 
 <footer>
-  bonjour je suis une page
+
 </footer>
 
 
