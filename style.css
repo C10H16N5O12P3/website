@@ -165,27 +165,30 @@ li.dropdown {
 .table{
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
   background-color: grey;
   color:white; 
-  padding-left: 83px;
-  padding-right: 83px;
-  
+  padding-left: 64px;
+  padding-right: 64px;
+  height: 150px;
 }
 
 .member{
-  flex: 1 1; 
+  flex: 1 0 ; 
   text-align: center;
   display : flex; 
   flex-direction: column;
+  padding-right: 19px;
 }
 .tableimg{
+  flex: 1 0 50%; 
   width: 100%;
   background-color: black;
 }
 .tabletxt{
+  flex: 1 0 50%; 
   width: 100%;
   background-color: blue;
+  margin-top: 5px ;
 }
 /*footer*/
 footer{
