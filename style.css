@@ -156,39 +156,30 @@ li.dropdown {
   text-align: left;
 }
 /*team*/
-.tablecenter{
-  position: absolute;
-  top: 500px;
-  width: 100%;
-  background-color: black;
-}
 .table{
-  display: flex;
-  flex-direction: row;
-  background-color: grey;
-  color:white; 
-  padding-left: 64px;
-  padding-right: 64px;
-  height: 150px;
-}
-
-.member{
-  flex: 1 0 ; 
-  text-align: center;
-  display : flex; 
-  flex-direction: column;
-  padding-right: 19px;
-}
-.tableimg{
-  flex: 1 0 50%; 
+  position: absolute;
+  top: 50px;
   width: 100%;
+  background-color: grey;
+}
+.colonne {
+  display:table-cell;
+  width:150px;
+  padding:25px;
+  text-align: center;
+}
+.colonne:first-child {
+  background:#e6e2af;
+}
+.colonne+ .colonne {
+  border-left:2px solid #fff;
+  background:#efecca;
+}
+.colonne + .colonne +.colonne{
   background-color: black;
 }
-.tabletxt{
-  flex: 1 0 50%; 
-  width: 100%;
-  background-color: blue;
-  margin-top: 5px ;
+.colonne + .colonne +.colonne +.colonne{
+  background-color: purple;
 }
 /*footer*/
 footer{
