@@ -137,14 +137,14 @@ li.dropdown {
 }
 
 .img_flex{
-  flex: 1 1 35%;
+  flex: 1 1 ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .txt_flex{
-  flex: 1 1 65%; 
+  flex: 1 1 ; 
 }
 
 
@@ -156,39 +156,10 @@ li.dropdown {
   text-align: left;
 }
 /*team*/
-.tablecenter{
-  position: absolute;
-  top: 500px;
-  width: 100%;
-  background-color: black;
-}
-.table{
-  display: flex;
-  flex-direction: row;
-  background-color: grey;
-  color:white; 
-  padding-left: 64px;
-  padding-right: 64px;
-  height: 150px;
-}
-
-.member{
-  flex: 1 0 ; 
+#tbl{
+  position: relative;
+  top: 64px;
   text-align: center;
-  display : flex; 
-  flex-direction: column;
-  padding-right: 19px;
-}
-.tableimg{
-  flex: 1 0 50%; 
-  width: 100%;
-  background-color: black;
-}
-.tabletxt{
-  flex: 1 0 50%; 
-  width: 100%;
-  background-color: blue;
-  margin-top: 5px ;
 }
 /*footer*/
 footer{
