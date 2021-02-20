@@ -13,9 +13,9 @@
     <td><?php echo ($txt->{"team"}[3]->{"txt"})?></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><?php foreach($txt->{"team"}[0]->{"wrok"} as $src){echo "<img src='icon/work".$src."' width='' height=''> ";}?></td>
+    <td><?php foreach($txt->{"team"}[0]->{"wrok"} as $src){echo "<img src='icon/work".$src."' width='' height=''> ";}?></td>
+    <td><?php foreach($txt->{"team"}[0]->{"wrok"} as $src){echo "<img src='icon/work".$src."' width='' height=''> ";}?></td>
+    <td><?php foreach($txt->{"team"}[0]->{"wrok"} as $src){echo "<img src='icon/work".$src."' width='' height=''> ";}?></td>
   </tr>
  </table>
