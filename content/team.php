@@ -13,9 +13,9 @@
     <td><?php echo ($txt->{"team"}[3]->{"txt"})?></td>
   </tr>
   <tr>
-    <td><?php foreach($txt->{"team"}[0]->{"wrok"} as $src){echo "<img src='icon/work".$src."' width='' height=''> ";}?></td>
-    <td><?php foreach($txt->{"team"}[0]->{"wrok"} as $src){echo "<img src='icon/work".$src."' width='' height=''> ";}?></td>
-    <td><?php foreach($txt->{"team"}[0]->{"wrok"} as $src){echo "<img src='icon/work".$src."' width='' height=''> ";}?></td>
-    <td><?php foreach($txt->{"team"}[0]->{"wrok"} as $src){echo "<img src='icon/work".$src."' width='' height=''> ";}?></td>
+    <td><?php foreach($txt->{"team"}[0]->{"work"} as $src){echo "<img src='icon/work/".$src.".png' width='' height=''> ";}?></td>
+    <td><?php foreach($txt->{"team"}[1]->{"work"} as $src){echo "<img src='icon/work/".$src.".png' width='' height=''> ";}?></td>
+    <td><?php foreach($txt->{"team"}[2]->{"work"} as $src){echo "<img src='icon/work/".$src.".png' width='' height=''> ";}?></td>
+    <td><?php foreach($txt->{"team"}[3]->{"work"} as $src){echo "<img src='icon/work/".$src.".png' width='' height=''> ";}?></td>
   </tr>
  </table>
