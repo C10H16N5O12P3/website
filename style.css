@@ -160,7 +160,9 @@ li.dropdown {
   position: relative;
   top: 64px;
   text-align: center;
+  font-family: var(--font);
 }
+
 /*footer*/
 footer{
 }
