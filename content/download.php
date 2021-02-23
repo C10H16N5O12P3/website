@@ -1,6 +1,6 @@
-<div class="">
-<div id="bigtitle" style="text-align:center">Beyond Styx</div>
-<table style="font-size: 64px; width:100%">
+<div class="down_content">
+<div id="bigtitle" style="text-align:center">Télécharger</div>
+<table class="down_table" style="width:100%; background: #512500; color: white" >
     <tr style="text-align:center">
         <td></td>
         <td colspan="2">Version</td>
@@ -11,17 +11,21 @@
         <td style="text-align:center">Alpha</td>
     </tr>
     <tr>
-        <td colspan="3" style="background: #512500; color: white">Windows</td>
+        <td colspan="3" style="background: #351800; color: white">Windows</td>
     </tr>
     <tr>
         <td>Installeur</td>
-        <td style="text-align:center">click</td>
-        <td style="text-align:center">click</td>
+        <td style="text-align:center"><a href="">click</a></td>
+        <td style="text-align:center"><a href="">click</a></td>
     </tr>
     <tr>
         <td>Archive ZIP</td>
-        <td style="text-align:center">click</td>
-        <td style="text-align:center">click</td>
+        <td style="text-align:center"><a href="">click</a></td>
+        <td style="text-align:center"><a href="">click</a></td>
     </tr>
 </table>
+
+<div id="bigtitle" style="text-align:center">Comment installer</div>
+<div id="bigtitle" style="text-align:center">Comment jouer</div>
+
 </div> 

@@ -157,7 +157,21 @@ li.dropdown {
 }
 
 /*download page*/
+.down_content {
+  position: relative;
+  top: 64px;
+  padding-right: 63px;
+  padding-left: 63px;
+}
 
+.down_table {
+  font-size: 25px ; 
+}
+
+.down_table a{
+  text-decoration: none;
+  color: white;
+}
 /*footer*/
 footer{
 }
