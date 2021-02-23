@@ -27,7 +27,7 @@ if( isset( $_GET['page'] ) ) {
 
 <nav id="nav" style="background-color: #FFE5D0;">
 <ul>
-  <li><a href="#home" id="play_button"><?php echo ($txt->{'buttons'})[0]?></a></li>
+  <li><a href="index.php?page=download&amp;lang=<?php echo $lang?>" id="play_button"><?php echo ($txt->{'buttons'})[0]?></a></li>
   <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn"><?php echo ($txt->{'buttons'})[1]?></a>
     <div class="dropdown-content">
