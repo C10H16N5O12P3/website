@@ -13,5 +13,28 @@
         }
     ],
 
+    "team": [
+        {
+            "name" : "Darius", 
+            "txt" : "Je me nomme Outaleb Aniss, je suis élève en première année du cycle préparatoire à EPITA.Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alorsque j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’esttout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "work": ["interface", "multiplayer", "ai", "camera"]
+        },
+        {
+            "name" : "Thomas", 
+            "txt" : "Je me nomme Outaleb Aniss, je suis élève en première année du cycle préparatoire à EPITA.Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alorsque j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’esttout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "work": ["audio", "level design", "graphic", "web", "ai"]
+        },
+        {
+            "name" : "Pierre", 
+            "txt" : "Je me nomme Outaleb Aniss, je suis élève en première année du cycle préparatoire à EPITA.Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alorsque j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’esttout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "work": ["graphic", "gameplay", "audio", "multiplayer", "camera"]
+        },
+        {
+            "name" : "Aniss", 
+            "txt" : "Je me nomme Outaleb Aniss, je suis élève en première année du cycle préparatoire à EPITA.Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alorsque j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’esttout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "work": ["ai", "web", "level design", "gameplay", "interface"]
+        }
+    ], 
+
     "footer" : " "
 }

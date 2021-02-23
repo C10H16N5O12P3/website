@@ -137,14 +137,14 @@ li.dropdown {
 }
 
 .img_flex{
-  flex: 1 1 35%;
+  flex: 1 1 ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .txt_flex{
-  flex: 1 1 65%; 
+  flex: 1 1 ; 
 }
 
 
@@ -156,31 +156,13 @@ li.dropdown {
   text-align: left;
 }
 /*team*/
-.table{
-  position: absolute;
-  top: 50px;
-  width: 100%;
-  background-color: grey;
-}
-.colonne {
-  display:table-cell;
-  width:150px;
-  padding:25px;
+#tbl{
+  position: relative;
+  top: 64px;
   text-align: center;
+  font-family: var(--font);
 }
-.colonne:first-child {
-  background:#e6e2af;
-}
-.colonne+ .colonne {
-  border-left:2px solid #fff;
-  background:#efecca;
-}
-.colonne + .colonne +.colonne{
-  background-color: black;
-}
-.colonne + .colonne +.colonne +.colonne{
-  background-color: purple;
-}
+
 /*footer*/
 footer{
 }
