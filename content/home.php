@@ -12,6 +12,9 @@ window.addEventListener('scroll', () => {
   }
 })
 </script>
+
+
+
 <div class="background"></div> 
 <div class="center-box">
     <div id="bigtitle">Beyond Styx</div>
@@ -46,11 +49,8 @@ window.addEventListener('scroll', () => {
             </div>
         </div>
     </div>
-
+    
 </div>
 
-
-
 </div>
-
 

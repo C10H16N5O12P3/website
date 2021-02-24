@@ -25,6 +25,8 @@ if( isset( $_GET['page'] ) ) {
 }
 ?>
 
+<div class="wrapper">
+
 <nav id="nav" style="background-color: #FFE5D0;">
 <ul>
   <li><a href="#home" id="play_button"><?php echo ($txt->{'buttons'})[0]?></a></li>
@@ -47,10 +49,7 @@ include "content/".$page.".php"
 
 </div>
 
-<footer>
-
-</footer>
-
+</div>
 
 </body>
 </html>
