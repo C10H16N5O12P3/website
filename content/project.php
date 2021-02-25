@@ -7,16 +7,16 @@
         </div> 
 
         <details>
-            <summary>Cahier des charges</summary>
+            <summary><?php echo ($txt->{"doc"}[0]->{"summary"})?></summary>
             <iframe src="documents/cdc.pdf" width="100%" height="500px">
-                <a href="documents/cdc.pdf">Télécharger le premier cahier des charges</a>
+                <a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[0]->{"details"})?></a>
             </iframe>
         </details>
 
         <details>
-            <summary>Première soutenance</summary>
+            <summary><?php echo ($txt->{"doc"}[1]->{"summary"})?></summary>
             <iframe src="documents/cdc.pdf" width="100%" height="500px">
-                <a href="documents/cdc.pdf">Télécharger le premier cahier des charges</a>
+                <a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[1]->{"details"})?></a>
             </iframe>
         </details>
 </div>

@@ -1,7 +1,7 @@
 <span class="globe">
     <div style="margin-top: 63px"></div>
     <div class="content_project">
-    <div id="bigtitle" style="text-align: center;">Présentation de l'équipe</div>
+    <div id="bigtitle" style="text-align: center;"><?php echo ($txt->{"team_title"})?></div>
     <table id="tbl">
     <tr>
     <tr style="" id="">

@@ -13,6 +13,7 @@
         }
     ],
 
+    "team_title": "Présentation de l'équipe", 
     "team": [
         {
             "name" : "Darius", 
@@ -36,5 +37,16 @@
         }
     ], 
 
+    "doc_title" : "Documentation",
+    "doc" : [
+        {
+            "summary" : "Cahier des charges", 
+            "details" :"Télécharger le premier cahier des charges"
+        },
+        {
+            "summary" : "Première soutenance", 
+            "details" : "Télécharger la première soutenance"
+        }
+    ],
     "footer" : " "
 }
