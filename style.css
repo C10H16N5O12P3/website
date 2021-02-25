@@ -161,6 +161,13 @@ li.dropdown {
   top: 64px;
   text-align: center;
   font-family: var(--font);
+  padding-left: 63px;
+  padding-right: 63px;
+}
+
+#tbl img{
+  width: 25;
+  height: 25;
 }
 
 /*footer*/
