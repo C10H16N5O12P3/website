@@ -35,7 +35,8 @@ if( isset( $_GET['page'] ) ) {
     <div class="dropdown-content">
       <a href="index.php?page=home&amp;lang=<?php echo $lang?>" ><?php echo ($txt->{'dropdown'})[0]?></a>
       <a href="index.php?page=download&amp;lang=<?php echo $lang?>"><?php echo ($txt->{'dropdown'})[1]?></a>
-      <a href="index.php?page=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>"><?php echo ($txt->{'dropdown'})[2]?></a>
+      <a href="index.php?page=project&amp;lang=<?php echo $lang?>"><?php echo ($txt->{'dropdown'})[2]?></a>
+      <a href="index.php?page=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>"><?php echo ($txt->{'dropdown'})[3]?></a>
     </div>
   </li>
 </ul>
