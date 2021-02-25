@@ -49,8 +49,14 @@ window.addEventListener('scroll', () => {
             </div>
         </div>
     </div>
-    
+
+<div class="push"></div>    
+
 </div>
 
+<footer>
+    <span class="footer_txt">Nous réseaux :</span>
+    <span class="footer_img" style=""><a href="https://github.com/BeyondStyx"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" height="30" width="30"></a></span>
+</footer> 
 </div>
 
