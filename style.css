@@ -184,8 +184,12 @@ summary{
 #tbl{
   text-align: center;
   font-family: var(--font);
+  table-layout: fixed;
+  width: 100%;
 }
-
+td {
+  word-break: break-all; 
+}
 #tbl img{
   width: 25;
   height: 25;

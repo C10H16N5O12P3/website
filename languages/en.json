@@ -12,29 +12,42 @@
             "txt_presentation": "Joue en équipe blabla tu connais"
         }
     ],
-
+    "team_title" : "Team presentation",
     "team": [
         {
             "name" : "Darius", 
-            "txt" : "Je me nomme Outaleb Aniss, je suis élève en première année du cycle préparatoire à EPITA.Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alorsque j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’esttout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "txt" : "My name is Darius ENGLER. I am a graduate of a Terminale S specialising in Mathematics and I have been interested in the field of computer science for several years. As I already have some experience in programming I have been appointed group leader. I will therefore take advantage of this project to acquire more skills in this field. I'm not someone who plays video games a lot but it's still a field that I'm in and that I find very interesting.", 
             "work": ["interface", "multiplayer", "ai", "camera"]
         },
         {
             "name" : "Thomas", 
-            "txt" : "Je me nomme Outaleb Aniss, je suis élève en première année du cycle préparatoire à EPITA.Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alorsque j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’esttout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "txt" : "My name is XU Thomas, I have just graduated from terminal S in the SVT sector, having already been involved in IT and finding the subject attractive, but above all out of a desire to give up chemistry, I naturally turned to IT and therefore to EPITA.", 
             "work": ["audio", "level design", "graphic", "web", "ai"]
         },
         {
             "name" : "Pierre", 
-            "txt" : "Je me nomme Outaleb Aniss, je suis élève en première année du cycle préparatoire à EPITA.Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alorsque j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’esttout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "txt" : "My name is Pierre Bourrely. As early as my year of second year, I knew that I wanted to go to an engineering school. I discovered my passion for computers and I wanted to learn my field. I joined EPITA in order to deepen my knowledge in this field.", 
             "work": ["graphic", "gameplay", "audio", "multiplayer", "camera"]
         },
         {
             "name" : "Aniss", 
-            "txt" : "Je me nomme Outaleb Aniss, je suis élève en première année du cycle préparatoire à EPITA.Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alorsque j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’esttout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "txt" : "My name is Outaleb Aniss, I am a student in the first year of the preparatory cycle at EPITA. When I was younger I was curious to understand how websites were designed, so I started using HTML, CSS and Javascript. I then wanted to understand more about computers in general and other computer languages. It was only natural that after obtaining the scientific baccalaureate with a mathematical speciality that I went to EPITA.", 
             "work": ["ai", "web", "level design", "gameplay", "interface"]
         }
     ], 
-    
-    "footer" : " "
+
+    "doc_title" : "Documentation",
+    "doc" : [
+        {
+            "summary" : "Scope statement", 
+            "details" :"Download the scope statement"
+        },
+        {
+            "summary" : "Frist step", 
+            "details" : "Download the first step"
+        }
+    ],
+
+    "download" : "Arrive bientôt :", 
+    "footer" : "Our networks :"
 }

@@ -17,17 +17,17 @@
     "team": [
         {
             "name" : "Darius", 
-            "txt" : "Je me nomme Outaleb Aniss, je suis élève en première année du cycle préparatoire à EPITA.Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alorsque j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’esttout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "txt" : "Je m’appelle Darius ENGLER. Je sors d’une Terminale S spécialité Mathématiques et suisintéressé par le domaine de l’informatique depuis plusieurs années. Étant donné que j’ai déjàun peu d’expérience en programmation j’ai été nommé chef de groupe. Je vais donc profiterde ce projet pour acquérir plus de compétences dans ce domaine. Je ne suis pas une personnequi joue énormément aux jeux-vidéos mais c’est tout de même un domaine que je suis et queje trouve très intéressant.", 
             "work": ["interface", "multiplayer", "ai", "camera"]
         },
         {
             "name" : "Thomas", 
-            "txt" : "Je me nomme Outaleb Aniss, je suis élève en première année du cycle préparatoire à EPITA.Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alorsque j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’esttout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "txt" : "Je m’appelle XU Thomas, je sors de terminal S en filière SVT, ayant déjà touché à l’infor-matique et en trouvant la matière attrayante mais surtout par envie d’arrêter la chimie, jeme suis naturellement dirigé vers l’informatique et donc à EPITA.", 
             "work": ["audio", "level design", "graphic", "web", "ai"]
         },
         {
             "name" : "Pierre", 
-            "txt" : "Je me nomme Outaleb Aniss, je suis élève en première année du cycle préparatoire à EPITA.Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alorsque j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’esttout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "txt" : "Je m’appelle Pierre Bourrely. Dès mon année de seconde, j’ai su que je voulais intégrer uneécole d’ingénieur. Je me suis découvert une passion pour l’informatique et j’ai souhaité enfaire mon domaine. J’ai rejoins EPITA afin d’approfondir mes connaissances en la matière.", 
             "work": ["graphic", "gameplay", "audio", "multiplayer", "camera"]
         },
         {
@@ -48,5 +48,7 @@
             "details" : "Télécharger la première soutenance"
         }
     ],
-    "footer" : " "
+
+    "download" : "Arrive bientôt :", 
+    "footer" : "Nos réseaux :"
 }
