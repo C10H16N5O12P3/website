@@ -1,4 +1,4 @@
-<div id="bigtitle">Présentation de l'équipe</div>
+<div id="bigtitle" style="text-align: center;">Présentation de l'équipe</div>
 <table id="tbl">
   <tr>
   <tr style="" id="">
