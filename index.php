@@ -40,7 +40,7 @@ if( isset( $_GET['page'] ) ) {
     </div>
   </li>
 </ul>
-<a href="index.php?lang=<?php echo $lang ?>"><img src="" id="logo" width="43px" height="50px"></a>
+<a href="index.php?lang=<?php echo $lang ?>"><img src="icon/C10.png" id="logo" width="40px" ></a>
 </nav>
 
 <div class="content">
