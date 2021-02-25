@@ -110,7 +110,7 @@ li.dropdown {
 
 .center-box{
   position: absolute;
-  top: 500px ;
+  top: 480px ; /*500px with txt*/
   text-align: center;
   color: black;
   font-family: Roboto;
@@ -193,6 +193,14 @@ summary{
 
 details{
   margin-top: 10px;
+}
+/*download*/
+#progress[value]::-webkit-progress-bar{
+  background-color: #512500;
+}
+.center-center{
+  text-align: center;
+  margin-top: calc(50vh - 50px);
 }
 /*footer*/
 
