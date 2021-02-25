@@ -25,7 +25,7 @@ if( isset( $_GET['page'] ) ) {
 }
 ?>
 
-<div class="wrapper">
+
 
 <nav id="nav" style="background-color: #FFE5D0;">
 <ul>
@@ -50,7 +50,7 @@ include "content/".$page.".php"
 
 </div>
 
-</div>
+
 
 </body>
 </html>
