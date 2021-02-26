@@ -28,18 +28,17 @@ if( isset( $_GET['page'] ) ) {
 
 
 <nav id="nav" style="background-color: #FFE5D0;">
-<ul>
+<ul class="left">
   <li><a href="index.php?page=download&amp;lang=<?php echo $lang?>" id="play_button"><?php echo ($txt->{'buttons'})[0]?></a></li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn"><?php echo ($txt->{'buttons'})[1]?></a>
-    <div class="dropdown-content">
-      <a href="index.php?page=home&amp;lang=<?php echo $lang?>" ><?php echo ($txt->{'dropdown'})[0]?></a>
-      <a href="index.php?page=team&amp;lang=<?php echo $lang?>"><?php echo ($txt->{'dropdown'})[1]?></a>
-      <a href="index.php?page=project&amp;lang=<?php echo $lang?>"><?php echo ($txt->{'dropdown'})[2]?></a>
-      <a href="index.php?page=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>"><?php echo ($txt->{'dropdown'})[3]?></a>
-    </div>
-  </li>
+  <li><a href="index.php?page=home&amp;lang=<?php echo $lang?>" id="<?php if($page == "home"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[0]?></a></li>
+  <li><a href="index.php?page=team&amp;lang=<?php echo $lang?>" id="<?php if($page == "team"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[1]?></a></li>
+  <li><a href="index.php?page=project&amp;lang=<?php echo $lang?>" id="<?php if($page == "project"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[2]?></a></li>
 </ul>
+
+<div class="right">
+ <li><a href="index.php?page=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>"><?php echo ($txt->{'dropdown'})[3]?></a></li>
+</div>
+
 <a href="index.php?lang=<?php echo $lang ?>"><img src="icon/C10.png" id="logo" width="40px" ></a>
 </nav>
 

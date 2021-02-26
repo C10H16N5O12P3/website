@@ -25,64 +25,63 @@ nav{
   z-index: 3 ;
   transition: background-color 0.4s; /*pb! disparait après presentation*/
 }
-ul {
+
+
+ul[class="left"] {
   list-style-type: none;
-  margin-left: 83px;
+  margin-left: 63px;
   padding: 0;
   overflow: hidden;
-  
 }
 
-li {
+ul[class="right"] {
+  list-style-type: none;
+  margin-right: 63px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.left li {
   float: left;
 }
 
-li a, .dropbtn {
-  display: inline-block;
+.right{
+  position: absolute;
+  right: 63px;
+  top : 0px; 
+}
+.right li {
+  list-style-type: none;
+  float: right;
+}
+
+li a {
+  display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 16px; /*-bordertop*/
   text-decoration: none;
+  border-top: 6px solid transparent;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: var(--dark-pink);
-  color : white;
+li a:hover {
+  border-top: 6px solid var(--dark-pink);
 }
 
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: var(--dark-pink);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 3 ;
-}
-
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #351800;}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+#active{
+  border-top: 6px solid var(--dark-pink);
 }
 
 #play_button{
-  background-color: var(--dark-pink);
+  background-color: brown;
   color: white;
+  border-top: 6px solid transparent;
 }
+
 #logo{
   position: absolute;
+  align-items: center;
+  justify-content: center;
   left: 50%;
   right: 50%;
   top: 1px ; 
