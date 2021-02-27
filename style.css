@@ -1,10 +1,10 @@
 @font-face {
   font-family: Roboto-Regular;
-  src : url("fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  src : url("fonts/Roboto/regular/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: Roboto-Black;
-  src : url("fonts/Roboto/Roboto-Black.ttf") format("truetype");
+  src : url("fonts/Roboto/black/Roboto-Black.ttf") format("truetype");
 }
 :root {
     --body-bg : white; 
