@@ -1,14 +1,14 @@
 {
     "buttons" : ["Play", "Explore"], 
     "dropdown" : ["Discover the game", "Team Presentation", "Project","Switch to french"],
-    "description" : "Beyond Styx est un jeu de rôle au tour par tour pour un ou deux joueurs où l’on incarne desdemi-dieux qui s’échappent des enfers. Le jeu se déroule dans une époque inspirée de la mythologiegrecque. Le héros trouvera des ennemis qui vont tout faire pour l’empêcher d’atteindre son but. Audébut du jeu, le joueur sélectionne le dieu avec lequel il a le plus d’affinités, ce dernier lui procureraalors certaines des capacités qui augmenteront au fur et à mesure des niveaux. Le joueur peut soitcontrôler l’équipe de demi-dieux ou bien faire appel à un ami pour contrôler un membre du groupe.",
+    "description" : "Beyond Styx is a RBG with mecanics of turn based strategy made for one or two players who incarn semi-gods escaping from hell. The game takes place in a greek's mythology like period. The hero is going to face ennemies who will do everything to stop him. At the begenning, the player has to choose the god he will play, that will give several abilities upgradable throughout the journey. The player can whether control the squad or team up with a friend controlling the other member of the squad.",
     "presentation" : [
         {
-            "title" : "Stratégie",
+            "title" : "Strategy",
             "txt_presentation" : "Dans animal crossing new leaf blabla il est vraiment bien"
         },
         {
-            "title" : "Equipe",
+            "title" : "Team",
             "txt_presentation": "Joue en équipe blabla tu connais"
         }
     ],
