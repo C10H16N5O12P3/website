@@ -199,13 +199,20 @@ summary{
   font-family: var(--font-regular);
   table-layout: fixed;
   width: 100%;
+  border-spacing: 10px;
+  border-collapse: separate;
 }
 td {
-  word-break: break-all; 
+  word-break:normal; 
 }
+
+.tbl_txt {
+  padding: 15px;
+}
+
 #tbl img{
-  width: 75;
-  height: 75;
+  width: 50;
+  height: 50;
 }
 
 details{
