@@ -73,11 +73,15 @@ li a:hover {
 }
 
 #play_button{
-  background-color: brown;
+  background-color: #a52a2a;
   color: white;
   border-top: 6px solid transparent;
 }
-
+#play_button_active {
+  background-color: #a52a2a;
+  color: white;
+  border-top: 6px solid #800303;
+}
 #logo{
   position: absolute;
   align-items: center;

@@ -29,7 +29,7 @@ if( isset( $_GET['page'] ) ) {
 
 <nav id="nav" style="background-color: #FFE5D0;">
 <ul class="left">
-  <li><a href="index.php?page=download&amp;lang=<?php echo $lang?>" id="play_button"><?php echo ($txt->{'buttons'})[0]?></a></li>
+  <li><a href="index.php?page=download&amp;lang=<?php echo $lang?>" id="<?php if($page == "download"){echo "play_button_active";} else {echo "play_button";}?>"><?php echo ($txt->{'buttons'})[0]?></a></li>
   <li><a href="index.php?page=home&amp;lang=<?php echo $lang?>" id="<?php if($page == "home"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[0]?></a></li>
   <li><a href="index.php?page=team&amp;lang=<?php echo $lang?>" id="<?php if($page == "team"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[1]?></a></li>
   <li><a href="index.php?page=project&amp;lang=<?php echo $lang?>" id="<?php if($page == "project"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[2]?></a></li>
