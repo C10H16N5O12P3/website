@@ -1,7 +1,13 @@
 <doctype html>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="description" content="Beyond Styx official website">
+<meta name="keywords" content="project, video game">
+<meta name="author" content="C10H16N5O12P3">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" type="image/png" href="icon/favicon.png" />
 <link href="style.css?<?php echo time()?>" rel="stylesheet">
 <title>Projet S2</title>
 </head>
