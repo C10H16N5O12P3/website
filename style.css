@@ -1,8 +1,17 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src : url("fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Roboto-Black;
+  src : url("fonts/Roboto/Roboto-Black.ttf") format("truetype");
+}
 :root {
     --body-bg : white; 
     --light-pink : #FFE5D0; 
     --dark-pink : #512500; 
-    --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-regular: Roboto-Regular;
+    --font-black:Roboto-Black;
 }
 html, body {
   height: 100%;
@@ -12,7 +21,7 @@ body{
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
-    font-family:var(--font) ;
+    font-family:var(--font-regular) ;
 }
 
 /*navigation bar*/
@@ -21,7 +30,7 @@ nav{
   position: sticky;
   top:0px;
   margin-bottom: 0px;
-  font-family: var(--font);
+  font-family: var(--font-regular);
   z-index: 3 ;
   transition: background-color 0.4s; /*pb! disparait après presentation*/
 }
@@ -116,10 +125,11 @@ li a:hover {
   top: 480px ; /*500px with txt*/
   text-align: center;
   color: black;
-  font-family: Roboto;
+  font-family: var(--font-regular);
   font-style: normal;
 }
 #bigtitle{
+  font-family: var(--font-black);
   font-weight: 900;
   font-size: 64px;
   line-height: 75px;
@@ -169,7 +179,7 @@ li a:hover {
   flex-direction: column;
 }
 .content_project{
-  font-family: var(--font);
+  font-family: var(--font-regular);
   flex: 1 0 auto;
   margin-right: 63px;
   margin-left: 63px;
@@ -186,7 +196,7 @@ summary{
 /*team*/
 #tbl{
   text-align: center;
-  font-family: var(--font);
+  font-family: var(--font-regular);
   table-layout: fixed;
   width: 100%;
 }
