@@ -16,7 +16,7 @@
 
 <?php 
 //set the language
-$lang="fr";
+$lang="fr"; //default language
 if( isset( $_GET['lang'] ) ) {
     $lang=$_GET['lang']; 
 }

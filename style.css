@@ -154,14 +154,16 @@ li a:hover {
 }
 
 .img_flex{
-  flex: 1 1 ;
+  flex: 1 1 35%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .txt_flex{
-  flex: 1 1 ; 
+  flex: 1 1 65% ; 
+  word-break: normal;
 }
 
 
