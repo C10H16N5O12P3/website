@@ -9,7 +9,7 @@
 
 <link rel="icon" type="image/png" href="icon/favicon.png" />
 <link href="style.css?<?php echo time()?>" rel="stylesheet">
-<title>Projet S2</title>
+<title>Beyond Styx</title>
 </head>
 
 <body>
