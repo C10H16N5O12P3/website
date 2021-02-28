@@ -1,14 +1,26 @@
 
 <script>
+function button_color(buttons, color){
+    for(var i=1; i<buttons.length; i++) {
+        buttons[i].style.color= color;
+    }
+}
+
 nav = document.getElementById("nav"); 
-nav.style.backgroundColor="transparent"; 
+buttons = Array.prototype.slice.call(document.getElementsByTagName("a"));
+
+nav.style.backgroundColor="transparent";
+button_color(buttons, "white");
+  
 window.addEventListener('scroll', () => {
   let y = window.scrollY ; 
   if(y<500){ //scrolling down
     nav.style.backgroundColor="transparent"; 
+    button_color(buttons, "white"); 
   }
   else{ //scrolling up
     nav.style.backgroundColor="#FFE5D0";
+    button_color(buttons, "black");
   }
 })
 </script>
@@ -23,7 +35,7 @@ window.addEventListener('scroll', () => {
     <div id="presentation">
     
     <div class="flex" id="txt_right">
-        <div class="img_flex" style="background-image: url('photos/presentation0.jpg')"></div> 
+        <div class="img_flex" style="background-image: url('photos/presentation0.png')"></div> 
         <div class="txt_flex">
             <span id="bigtitle"><?php echo $txt->{"presentation"}[0]->{"title"}?></span>
             <div>
@@ -38,14 +50,14 @@ window.addEventListener('scroll', () => {
                 <?php echo $txt->{"presentation"}[1]->{"txt_presentation"}?>
             </div>
         </div>
-        <div class="img_flex" style="background-image: url('photos/presentation1.jpg')"></div>
+        <div class="img_flex" style="background-image: url('photos/presentation1.png')"></div>
     </div>
     <div class="flex" id="txt_right">
-        <div class="img_flex" style="background-image: url('photos/presentation0.jpg')"></div> 
+        <div class="img_flex" style="background-image: url('photos/presentation2.png')"></div> 
         <div class="txt_flex">
-            <span id="bigtitle"><?php echo $txt->{"presentation"}[0]->{"title"}?></span>
+            <span id="bigtitle"><?php echo $txt->{"presentation"}[2]->{"title"}?></span>
             <div>
-                <?php echo $txt->{"presentation"}[0]->{"txt_presentation"}?>
+                <?php echo $txt->{"presentation"}[2]->{"txt_presentation"}?>
             </div>
         </div>
     </div>

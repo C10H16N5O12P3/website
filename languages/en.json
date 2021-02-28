@@ -5,11 +5,15 @@
     "presentation" : [
         {
             "title" : "Strategy",
-            "txt_presentation" : "Dans animal crossing new leaf blabla il est vraiment bien"
+            "txt_presentation" : "Use your intelligence to face the monsters of the underworld."
         },
         {
             "title" : "Team",
-            "txt_presentation": "Joue en équipe blabla tu connais"
+            "txt_presentation": " Collaborate as a team in the online multiplayer mode to complete missions."
+        },
+        {
+            "title" : "Explore",
+            "txt_presentation": "Explore the beautiful and terrifying world of Beyond Styx"
         }
     ],
     "team_title" : "Team presentation",

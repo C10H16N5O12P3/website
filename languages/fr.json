@@ -5,11 +5,15 @@
     "presentation" : [
         {
             "title" : "Stratégie",
-            "txt_presentation" : ""
+            "txt_presentation" : "Usez de votre intelligence pour affronter les monstres des enfers."
         },
         {
             "title" : "Equipe",
-            "txt_presentation": ""
+            "txt_presentation": "Collaborez en équipe dans le mode multijoueur en ligne pour venir à bout des innombrables missions."
+        },
+        {
+            "title" : "Explorez",
+            "txt_presentation": "Parcourez le monde à la fois magnifique et terrifiant de Beyond Styx."
         }
     ],
 
