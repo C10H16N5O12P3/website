@@ -1,9 +1,9 @@
 <span class="globe">
 <div style="margin-top: 63px"></div>
 <div class="content_project">    
-    <div id="bigtitle" style="text-align: center;">Documentation</div>
+    <div id="bigtitle" style="text-align: center;"><?php echo ($txt->{"doc_title"})?></div>
         <div style="text-align: center; ">
-            
+            <?php echo ($txt->{"doc_description"})?>
         </div> 
 
         <details>

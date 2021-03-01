@@ -42,10 +42,11 @@
     ], 
 
     "doc_title" : "Documentation",
+    "doc_description" : "",
     "doc" : [
         {
             "summary" : "Logiciels utilisés", 
-            "details" : "Pour le projet nous avons utilisés les logiciels suivants: ",
+            "details" : "Pour le projet nous avons utilisés les logiciels suivants :",
             "soft" : [
                 {
                     "name" :"Unity",

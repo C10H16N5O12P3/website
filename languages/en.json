@@ -1,7 +1,7 @@
 {
     "buttons" : ["Play", "Explore"], 
     "dropdown" : ["Discover the game", "Team Presentation", "Project","Switch to french"],
-    "description" : "Beyond Styx is a RBG with mecanics of turn based strategy made for one or two players who incarn semi-gods escaping from hell. The game takes place in a greek's mythology like period. The hero is going to face ennemies who will do everything to stop him. At the begenning, the player has to choose the god he will play, that will give several abilities upgradable throughout the journey. The player can whether control the squad or team up with a friend controlling the other member of the squad.",
+    "description" : "Beyond Styx is a RPG with mecanics of turn based strategy made for one or two players who incarn semi-gods escaping from hell. The game takes place in a greek's mythology like period. The hero is going to face ennemies who will do everything to stop him. At the begenning, the player has to choose the god he will play, that will give several abilities upgradable throughout the journey. The player can whether control the squad or team up with a friend controlling the other member of the squad.",
     "presentation" : [
         {
             "title" : "Strategy",
@@ -41,10 +41,11 @@
     ], 
 
     "doc_title" : "Documentation",
+    "doc_description" : "",
     "doc" : [
         {
             "summary" : "Software used", 
-            "details" : "We used these software for the project: ",
+            "details" : "We used these software for the project :",
             "soft" : [
                 {
                     "name" :"Unity",
