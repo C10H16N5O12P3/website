@@ -44,6 +44,44 @@
     "doc_title" : "Documentation",
     "doc" : [
         {
+            "summary" : "Logiciels utilisés", 
+            "details" : "Pour le projet nous avons utilisés les logiciels suivants: ",
+            "soft" : [
+                {
+                    "name" :"Unity",
+                    "url" : "https://unity.com/"
+                },
+                {
+                    "name" :"Github",
+                    "url" : "https://github.com/"
+                },
+                {
+                    "name" :"Photoshop",
+                    "url" : "https://www.adobe.com/products/photoshop.html"
+                },
+                {
+                    "name" :"Visual studio",
+                    "url" : "https://visualstudio.microsoft.com/"
+                },
+                {
+                    "name" :"Visual studio Code",
+                    "url" : "https://code.visualstudio.com/"
+                },
+                {
+                    "name" :"Rider",
+                    "url" : "https://www.jetbrains.com/rider/"
+                },
+                {
+                    "name" :"Discord",
+                    "url" : "https://discord.com/"
+                }
+            ]
+        },
+        {
+            "summary" : "Première soutenance", 
+            "details" : "Télécharger la première soutenance"
+        },
+        {
             "summary" : "Cahier des charges", 
             "details" :"Télécharger le premier cahier des charges"
         },

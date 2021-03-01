@@ -43,6 +43,40 @@
     "doc_title" : "Documentation",
     "doc" : [
         {
+            "summary" : "Software used", 
+            "details" : "Pour le projet nous avons utilisés les logiciels suivants: ",
+            "soft" : [
+                {
+                    "name" :"Unity",
+                    "url" : "https://unity.com/"
+                },
+                {
+                    "name" :"Github",
+                    "url" : "https://github.com/"
+                },
+                {
+                    "name" :"Photoshop",
+                    "url" : "https://www.adobe.com/products/photoshop.html"
+                },
+                {
+                    "name" :"Visual studio",
+                    "url" : "https://visualstudio.microsoft.com/"
+                },
+                {
+                    "name" :"Visual studio Code",
+                    "url" : "https://code.visualstudio.com/"
+                },
+                {
+                    "name" :"Rider",
+                    "url" : "https://www.jetbrains.com/rider/"
+                },
+                {
+                    "name" :"Discord",
+                    "url" : "https://discord.com/"
+                }
+            ]
+        },
+        {
             "summary" : "Scope statement", 
             "details" :"Download the scope statement"
         },
