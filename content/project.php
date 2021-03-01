@@ -14,7 +14,7 @@
                 foreach ($txt->{"doc"}[0]->{"soft"} as $soft){
                     $soft_name = $soft->{"name"};
                     $soft_url = $soft -> {"url"};
-                    echo "<br><a href='".$soft_url."' onclick='window.open(this.href); return false'>$soft_name</a>";
+                    echo "<div class='soft_url'><a href='".$soft_url."' onclick='window.open(this.href); return false'>$soft_name</a></div>";
                 }
             ?>
             </div>

@@ -44,7 +44,7 @@
     "doc" : [
         {
             "summary" : "Software used", 
-            "details" : "Pour le projet nous avons utilisés les logiciels suivants: ",
+            "details" : "We used these software for the project: ",
             "soft" : [
                 {
                     "name" :"Unity",
