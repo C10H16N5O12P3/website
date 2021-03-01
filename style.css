@@ -195,6 +195,27 @@ summary{
   background-color:var(--dark-pink);
   color: white;
 }
+ /*software*/
+ .soft {
+  text-align: center;
+  background-color: var(--dark-pink);
+  color: white; 
+  font-size: 25px;
+  width: 100%;
+}
+.soft_url {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.soft_url a{
+  color : white; 
+  text-decoration: none;
+}
+.soft_url:hover{
+  background-color: #442307;
+}
+
 /*team*/
 #tbl{
   text-align: center;
@@ -220,26 +241,7 @@ td {
 details{
   margin-top: 10px;
 }
-  /*software*/
-.soft {
-  text-align: center;
-  background-color: var(--dark-pink);
-  color: white; 
-  font-size: 25px;
-  width: 100%;
-}
-.soft_url {
-  width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.soft_url a{
-  color : white; 
-  text-decoration: none;
-}
-.soft_url:hover{
-  background-color: #442307;
-}
+ 
 /*download*/
 #progress[value]::-webkit-progress-bar{
   background-color: #512500;

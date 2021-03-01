@@ -3,7 +3,7 @@
 <div class="content_project">    
     <div id="bigtitle" style="text-align: center;">Documentation</div>
         <div style="text-align: center; ">
-            Sur cette page vous trouverez les differentes phases du projet
+            
         </div> 
 
         <details>
@@ -33,7 +33,11 @@
                 <a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[1]->{"details"})?></a>
             </iframe>
         </details>
+
+
 </div>
+
+    
 
 <footer>
     <?php include "content/footer.php"?>
