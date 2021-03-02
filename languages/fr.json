@@ -79,16 +79,30 @@
             ]
         },
         {
-            "summary" : "Première soutenance", 
-            "details" : "Télécharger la première soutenance"
-        },
-        {
             "summary" : "Cahier des charges", 
-            "details" :"Télécharger le premier cahier des charges"
+            "details" : "Télécharger le cahier des charges"
         },
         {
             "summary" : "Première soutenance", 
-            "details" : "Télécharger la première soutenance"
+            "details" :"Télécharger la première soutenance"
+        },
+        {
+            "summary" : "Deuxième soutenance", 
+            "details" : "Télécharger la deuxième soutenance"
+        },
+        {
+            "summary" : "Dernière soutenance", 
+            "details" : "Télécharger la dernière soutenance"
+        }
+    ],
+
+    "progress_title" : "Avancement",
+    "progress_description" : "Cette page vous présente l'avancement du projet", 
+    "progress" : [
+        {
+            "achievement" : "yolo",
+            "date" : "xx/xx/xx",
+            "details" : "super cool on a réussis ça"
         }
     ],
 
