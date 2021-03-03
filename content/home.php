@@ -60,11 +60,11 @@ window.addEventListener('scroll', () => {
                 <?php echo $txt->{"presentation"}[2]->{"txt_presentation"}?>
             </div>
         </div>
-    </div>
-
-<div class="push"></div>    
+    </div>  
 
 </div>
+
+<div class="push"></div>  
 
 <footer>
     <?php include "content/footer.php"?>

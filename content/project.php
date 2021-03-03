@@ -2,6 +2,7 @@
 <div style="margin-top: 63px"></div>
 <div class="content_project">
     <!-- Documentation -->
+    <span id="doc"></span>
     <div id="bigtitle" style="text-align: center;"><?php echo ($txt->{"doc_title"})?></div>
         <div style="text-align: center; ">
             <?php echo ($txt->{"doc_description"})?>
@@ -50,10 +51,42 @@
         </details>
 
     <!-- Progression -->
+    <span id="progress"></span>
     <div id="bigtitle" style="text-align: center;"><?php echo ($txt->{"progress_title"})?></div>
         <div style="text-align: center; ">
             <?php echo ($txt->{"progress_description"})?>
         </div> 
+        <div class="flex" id="txt_right">
+        <div class="img_flex" style="background-image: url('photos/presentation0.png')"></div> 
+        <div class="txt_flex">
+            <span id="bigtitle"><?php echo $txt->{"presentation"}[0]->{"title"}?></span>
+            <div>
+                <?php echo $txt->{"presentation"}[0]->{"txt_presentation"}?>
+            </div>
+        </div>
+    </div>
+    <div class="flex" id="txt_left">
+        <div class="txt_flex">
+            <span id="bigtitle"><?php echo $txt->{"presentation"}[1]->{"title"}?></span>
+            <div>
+                <?php echo $txt->{"presentation"}[1]->{"txt_presentation"}?>
+            </div>
+        </div>
+        <div class="img_flex" style="background-image: url('photos/presentation1.png')"></div>
+    </div>
+    <div class="flex" id="txt_right">
+        <div class="img_flex" style="background-image: url('photos/presentation2.png')"></div> 
+        <div class="txt_flex">
+            <span id="bigtitle"><?php echo $txt->{"presentation"}[2]->{"title"}?></span>
+            <div>
+                <?php echo $txt->{"presentation"}[2]->{"txt_presentation"}?>
+            </div>
+        </div>
+    </div>
+
+    <div class="push"></div>   
+
+    
 </div>
 
     

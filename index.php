@@ -40,8 +40,8 @@ if( isset( $_GET['page'] ) ) {
   <li><a href="index.php?page=team&amp;lang=<?php echo $lang?>" id="<?php if($page == "team"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[1]?></a></li>
   <li class="dropdown"><a href="index.php?page=project&amp;lang=<?php echo $lang?>" id="<?php if($page == "project"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[2]?></a>
   <div class="dropdown-content">
-      <a href="#">Documentation</a>
-      <a href="#">Avancement</a>
+      <a href="index.php?page=project&amp;lang=<?php echo $lang?>#doc">Documentation</a>
+      <a href="index.php?page=project&amp;lang=<?php echo $lang?>#progress">Avancement</a>
     </div>
   </li>
 </ul>
