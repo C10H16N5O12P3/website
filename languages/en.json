@@ -84,6 +84,24 @@
         {
             "summary" : "First step", 
             "details" : "Download the first step"
+        },
+        {
+            "summary" : "Second step", 
+            "details" : "Download the second step"
+        },
+        {
+            "summary" : "Last step", 
+            "details" : "Download the last step"
+        }
+    ],
+
+    "progress_title" : "Avancement",
+    "progress_description" : "Cette page vous présente l'avancement du projet", 
+    "progress" : [
+        {
+            "achievement" : "yolo",
+            "date" : "xx/xx/xx",
+            "details" : "super cool on a réussis ça"
         }
     ],
 
