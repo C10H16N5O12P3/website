@@ -97,12 +97,17 @@
     ],
 
     "progress_title" : "Avancement",
-    "progress_description" : "Cette page vous présente l'avancement du projet", 
+    "progress_description" : "Suivez l'avancement du projet depuis son commencement", 
     "progress" : [
         {
-            "achievement" : "yolo",
+            "achievement" : "Début du projet",
             "date" : "xx/xx/xx",
-            "details" : "super cool on a réussis ça"
+            "details" : "Une fois le cahier des charges validé, nous avons pu commencer le projet."
+        },
+        {
+            "achievement" : "Première soutenance",
+            "date" : "xx/xx/xx",
+            "details" : "Nous avons présenté les premier avancement sur le jeu"
         }
     ],
 

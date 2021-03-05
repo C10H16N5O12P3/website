@@ -95,13 +95,18 @@
         }
     ],
 
-    "progress_title" : "Avancement",
-    "progress_description" : "Cette page vous présente l'avancement du projet", 
+    "progress_title" : "Progress",
+    "progress_description" : "Follow the progress of the project from its inception", 
     "progress" : [
         {
-            "achievement" : "yolo",
+            "achievement" : "Start of the project",
             "date" : "xx/xx/xx",
-            "details" : "super cool on a réussis ça"
+            "details" : ""
+        },
+        {
+            "achievement" : "First presentation",
+            "date" : "xx/xx/xx",
+            "details" : ""
         }
     ],
 

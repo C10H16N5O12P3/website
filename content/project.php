@@ -57,32 +57,24 @@
             <?php echo ($txt->{"progress_description"})?>
         </div> 
         <div class="flex" id="txt_right">
-        <div class="img_flex" style="background-image: url('photos/presentation0.png')"></div> 
+        <div class="img_flex" style=""><span id="bigtitle"><?php echo $txt->{"progress"}[0]->{"date"}?></span></div> 
         <div class="txt_flex">
-            <span id="bigtitle"><?php echo $txt->{"presentation"}[0]->{"title"}?></span>
+            <span id="bigtitle"><?php echo $txt->{"progress"}[0]->{"achievement"}?></span>
             <div>
-                <?php echo $txt->{"presentation"}[0]->{"txt_presentation"}?>
+                <?php echo $txt->{"progress"}[0]->{"details"}?>
             </div>
         </div>
     </div>
     <div class="flex" id="txt_left">
         <div class="txt_flex">
-            <span id="bigtitle"><?php echo $txt->{"presentation"}[1]->{"title"}?></span>
+            <span id="bigtitle"><?php echo $txt->{"progress"}[1]->{"achievement"}?></span>
             <div>
-                <?php echo $txt->{"presentation"}[1]->{"txt_presentation"}?>
+                <?php echo $txt->{"progress"}[1]->{"details"}?>
             </div>
         </div>
-        <div class="img_flex" style="background-image: url('photos/presentation1.png')"></div>
+        <div class="img_flex" style="text-align:right;"><span id="bigtitle"><?php echo $txt->{"progress"}[1]->{"date"}?></span></div>
     </div>
-    <div class="flex" id="txt_right">
-        <div class="img_flex" style="background-image: url('photos/presentation2.png')"></div> 
-        <div class="txt_flex">
-            <span id="bigtitle"><?php echo $txt->{"presentation"}[2]->{"title"}?></span>
-            <div>
-                <?php echo $txt->{"presentation"}[2]->{"txt_presentation"}?>
-            </div>
-        </div>
-    </div>
+    
 
     <div class="push"></div>   
 
