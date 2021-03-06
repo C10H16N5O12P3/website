@@ -93,5 +93,12 @@
     ],
 
     "download" : "Arrive bientôt :", 
-    "footer" : "Nos réseaux :"
+    "footer" : "Nos réseaux", 
+
+    "error" : [
+        {
+            "code" : "404",
+            "details" : "Votre page n'existe pas"
+        }
+    ]
 }

@@ -50,7 +50,13 @@ if( isset( $_GET['page'] ) ) {
 
 <div class="content">
 <?php
-include "content/".$page.".php"
+$path = "content/".$page.".php"; 
+if(file_exists($path)){
+  include $path; 
+}
+else{
+  include "error/404.php";
+}
 ?>
 
 </div>

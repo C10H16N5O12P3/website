@@ -88,5 +88,12 @@
     ],
 
     "download" : "Coming soon :", 
-    "footer" : "Find us :"
+    "footer" : "Find us :",
+
+    "error" : [
+        {
+            "code" : "404",
+            "details" : "Your page doesn't exists"
+        }
+    ]
 }
