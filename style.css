@@ -16,6 +16,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
 }
 body{
     margin-top: 0%;
@@ -77,6 +78,29 @@ li a:hover {
   border-top: 6px solid var(--dark-pink);
 }
 
+.dropdown-content  {
+  position: absolute;
+  text-align: center;
+  min-width: 160px;
+  display: none;
+  background-color:var(--dark-pink) ;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a{
+  border-top: 0px;
+  color:white; 
+}
+
+.dropdown-content a:hover{
+  background-color:#351800;
+  border-top: 0px;
+}
+.dropdown-content a:hover li[class="dropdown"] a{
+  border-top: 6px solid var(--dark-pink);
+}
 #active{
   border-top: 6px solid var(--dark-pink);
 }
@@ -127,6 +151,7 @@ li a:hover {
   color: black;
   font-family: var(--font-regular);
   font-style: normal;
+  z-index: 1;
 }
 #bigtitle{
   font-family: var(--font-black);
@@ -158,7 +183,6 @@ li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .txt_flex{

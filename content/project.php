@@ -1,6 +1,8 @@
 <span class="globe">
 <div style="margin-top: 63px"></div>
-<div class="content_project">    
+<div class="content_project">
+    <!-- Documentation -->
+    <span id="doc"></span>
     <div id="bigtitle" style="text-align: center;"><?php echo ($txt->{"doc_title"})?></div>
         <div style="text-align: center; ">
             <?php echo ($txt->{"doc_description"})?>
@@ -29,12 +31,54 @@
 
         <details>
             <summary><?php echo ($txt->{"doc"}[2]->{"summary"})?></summary>
-            <iframe src="documents/cdc.pdf" width="100%" height="500px">
-                <a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[1]->{"details"})?></a>
+            <iframe src="documents/1st.pdf" width="100%" height="500px">
+                <a href="documents/1st.pdf"><?php echo ($txt->{"doc"}[2]->{"details"})?></a>
             </iframe>
         </details>
 
+        <details>
+            <summary><?php echo ($txt->{"doc"}[3]->{"summary"})?></summary>
+            <iframe src="documents/cdc.pdf" width="100%" height="500px">
+                <a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[3]->{"details"})?></a>
+            </iframe>
+        </details>
 
+        <details>
+            <summary><?php echo ($txt->{"doc"}[4]->{"summary"})?></summary>
+            <iframe src="documents/cdc.pdf" width="100%" height="500px">
+                <a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[4]->{"details"})?></a>
+            </iframe>
+        </details>
+
+    <!-- Progression -->
+    <span id="progress"></span>
+    <div id="bigtitle" style="text-align: center;"><?php echo ($txt->{"progress_title"})?></div>
+        <div style="text-align: center; ">
+            <?php echo ($txt->{"progress_description"})?>
+        </div> 
+        <div class="flex" id="txt_right">
+        <div class="img_flex" style=""><span id="bigtitle"><?php echo $txt->{"progress"}[0]->{"date"}?></span></div> 
+        <div class="txt_flex">
+            <span id="bigtitle"><?php echo $txt->{"progress"}[0]->{"achievement"}?></span>
+            <div>
+                <?php echo $txt->{"progress"}[0]->{"details"}?>
+            </div>
+        </div>
+    </div>
+    <div class="flex" id="txt_left">
+        <div class="txt_flex">
+            <span id="bigtitle"><?php echo $txt->{"progress"}[1]->{"achievement"}?></span>
+            <div>
+                <?php echo $txt->{"progress"}[1]->{"details"}?>
+            </div>
+        </div>
+        <div class="img_flex" style="text-align:right;"><span id="bigtitle"><?php echo $txt->{"progress"}[1]->{"date"}?></span></div>
+    </div>
+    
+
+    <div class="push"></div>   
+
+    
 </div>
 
     

@@ -84,6 +84,29 @@
         {
             "summary" : "First step", 
             "details" : "Download the first step"
+        },
+        {
+            "summary" : "Second step", 
+            "details" : "Download the second step"
+        },
+        {
+            "summary" : "Last step", 
+            "details" : "Download the last step"
+        }
+    ],
+
+    "progress_title" : "Progress",
+    "progress_description" : "Follow the progress of the project from its inception", 
+    "progress" : [
+        {
+            "achievement" : "Start of the project",
+            "date" : "xx/xx/xx",
+            "details" : ""
+        },
+        {
+            "achievement" : "First presentation",
+            "date" : "xx/xx/xx",
+            "details" : ""
         }
     ],
 
