@@ -294,3 +294,36 @@ footer{
   display: inline-block;
   margin-top: 5px ;
 }
+
+@media screen and (max-width : 1218px) {
+  /*flex presentation*/
+  #presentation{
+    margin-top: 100px ; /*space betwenn description and presentation*/
+    padding-left: 0px;
+    padding-right: 0px; 
+  }
+  .flex{
+    margin-top: 100px; /*space between flex box*/
+  }
+  .img_flex{
+    flex: 1 1 50%;
+  }
+  .txt_flex{
+    flex: 1 1 50%;
+  }
+  .flex[id="txt_right"]{
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .flex[id="txt_left"]{
+    flex-direction: column-reverse;
+    margin-top: 5px;
+  }
+  .flex[id="txt_right"] .txt_flex{
+    text-align: center;
+  }
+  
+  .flex[id="txt_left"] .txt_flex{
+    text-align: center;
+  }
+} 
