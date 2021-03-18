@@ -72,7 +72,7 @@
                 <?php echo $txt->{"progress"}[1]->{"details"}?>
             </div>
         </div>
-        <div class="img_flex" style="text-align:right;"><span id="bigtitle"><?php echo $txt->{"progress"}[1]->{"date"}?></span></div>
+        <div class="img_flex"><span id="bigtitle"><?php echo $txt->{"progress"}[1]->{"date"}?></span></div>
     </div>
     
 

@@ -195,8 +195,15 @@ li a:hover {
   text-align: right;
 }
 
-.flex[id="txt_left"] .txt_flex{
+.flex[id="txt_left"] .txt_flex {
   text-align: left;
+}
+.flex[id="txt_right"] .img_flex {
+  text-align: left;
+}
+
+.flex[id="txt_left"] .img_flex {
+  text-align: right;
 }
 /*project*/
 .globe{
@@ -265,7 +272,7 @@ td {
 details{
   margin-top: 10px;
 }
- 
+
 /*download*/
 #progress[value]::-webkit-progress-bar{
   background-color: #512500;
@@ -297,6 +304,10 @@ footer{
 
 @media screen and (max-width : 1218px) {
   /*flex presentation*/
+  #description{
+    padding-left: 0px;
+    padding-right: 0px; 
+  }
   #presentation{
     margin-top: 100px ; /*space betwenn description and presentation*/
     padding-left: 0px;
@@ -319,11 +330,39 @@ footer{
     flex-direction: column-reverse;
     margin-top: 5px;
   }
-  .flex[id="txt_right"] .txt_flex{
+  .flex[id="txt_right"] .txt_flex {
     text-align: center;
   }
   
-  .flex[id="txt_left"] .txt_flex{
+  .flex[id="txt_left"] .txt_flex {
     text-align: center;
+  }
+  /*team presentation*/
+  /*project presentation*/
+  .content_project{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  summary{
+    font-size: xx-large;
+    text-align: center;
+  }
+  .flex[id="txt_right"] .img_flex {
+    text-align: center;
+  }
+  
+  .flex[id="txt_left"] .img_flex {
+    text-align: center;
+  }
+  .content_project .flex{
+    height: auto;
+    margin-top: 100px;
+  }
+  .content_project .img_flex{
+    flex: 1 1 ;
+    height: auto;
+  }
+  .content_project .txt_flex{
+    flex: 1 1 ;
   }
 } 
