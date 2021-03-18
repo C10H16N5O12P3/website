@@ -117,10 +117,8 @@ li a:hover {
 }
 #logo{
   position: absolute;
-  align-items: center;
-  justify-content: center;
-  left: 50%;
-  right: 50%;
+  margin-left: 50%;
+  margin-right:50%;
   top: 1px ; 
 }
 
@@ -303,6 +301,51 @@ footer{
 }
 
 @media screen and (max-width : 1218px) {
+  /*nav*/
+  nav{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: var(--light-pink);
+  }
+  ul[class="left"]{
+    position: absolute;
+    width: 100%;
+    margin-left: 0;
+    top: 200px;
+  }
+  ul[class="right"]{
+    position: absolute;
+    width: 100%;
+    margin-left: 0;
+    top: 200px;
+  }
+  .right{
+    position: absolute;
+    bottom: 0px;
+  }
+  .left li{
+    float : none;
+    display: block;
+    margin-left: 0px;
+  }
+  li a{
+    border-top:0px ;
+  }
+  li a:hover {
+    border-top: 0px;
+    background-color: var(--dark-pink);
+    color: white;
+  }
+  #active{
+    font-weight: bold;
+    border-top: 0px;
+  }
+  #play_button_active {
+    font-weight: bold;
+    color: white;
+    border-top: 0px;
+  }
   /*flex presentation*/
   #description{
     padding-left: 0px;

@@ -50,7 +50,7 @@ if( isset( $_GET['page'] ) ) {
  <li><a href="index.php?page=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>"><?php echo ($txt->{'dropdown'})[3]?></a></li>
 </div>
 
-<a href="index.php?lang=<?php echo $lang ?>"><img src="icon/C10.png" id="logo" width="40px" ></a>
+<span id="logo"><a href="index.php?lang=<?php echo $lang ?>"><img src="icon/C10.png" width="40px" ></a></span>
 </nav>
 
 <div class="content">
