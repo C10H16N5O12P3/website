@@ -13,6 +13,9 @@
     --font-regular: Roboto-Regular;
     --font-black:Roboto-Black;
 }
+.responsive{
+  display: none;
+}
 html, body {
   height: 100%;
   margin: 0;
@@ -116,12 +119,17 @@ li a:hover {
   border-top: 6px solid #800303;
 }
 #logo{
-  position: absolute;
+  position: fixed;
   margin-left: 50%;
   margin-right:50%;
   top: 1px ; 
+  z-index: 4;
 }
-
+#nav_ico{
+  position: fixed;
+  margin-left: 63px;
+  z-index: 4;
+}
 /*content*/
 .content{
   width: 100%;
@@ -301,12 +309,14 @@ footer{
 }
 
 @media screen and (max-width : 1218px) {
+  .responsive{display: block;}
   /*nav*/
   nav{
     position: fixed;
     height: 100%;
     width: 100%;
     background-color: var(--light-pink);
+    display: none;
   }
   ul[class="left"]{
     position: absolute;
