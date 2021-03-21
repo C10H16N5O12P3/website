@@ -1,32 +1,5 @@
 
-<script>
-function button_color(buttons, color){
-    for(var i=1; i<buttons.length; i++) {
-        buttons[i].style.color= color;
-    }
-}
-
-nav = document.getElementById("nav"); 
-buttons = Array.prototype.slice.call(document.getElementsByTagName("a"));
-
-nav.style.backgroundColor="transparent";
-button_color(buttons, "white");
-  
-window.addEventListener('scroll', () => {
-  let y = window.scrollY ; 
-  if(y<500){ //scrolling down
-    nav.style.backgroundColor="transparent"; 
-    button_color(buttons, "white"); 
-  }
-  else{ //scrolling up
-    nav.style.backgroundColor="#FFE5D0";
-    button_color(buttons, "black");
-  }
-})
-</script>
-
-
-
+<script>home();</script>
 <div class="background"></div> 
 <div class="center-box">
     <div id="bigtitle"><img src="icon/logo_text_web.png" width="450" ></div>
