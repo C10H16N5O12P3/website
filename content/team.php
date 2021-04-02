@@ -4,7 +4,7 @@
     <div id="bigtitle" style="text-align: center;"><?php echo ($txt->{"team_title"})?></div>
     <table id="tbl" style="width: 100%;
   border-spacing: 10px;
-  border-collapse: separate;">
+  border-collapse: separate;" class="pc">
     <tr>
     <tr style="" id="">
         <td><?php echo ($txt->{"team"}[0]->{"name"})?></td>
@@ -65,6 +65,18 @@
         
     </tr>
     </table>
+    <!-- mobile version!-->
+    <div class="resposive">
+        <?php 
+            foreach ($txt->{"team"} as $member) {
+                echo '<div id="bigtitle" style="text-align: center;">'.$member->{"name"}.'</div>';
+                echo $member->{"txt"};
+                foreach ($member->{"work"} as $src){
+                    echo "<span title='".$src."'><img src='icon/work/".$src.".png'></span>";
+                }
+            }
+        ?>
+    </div>
 </div>
 
 <footer>

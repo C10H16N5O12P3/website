@@ -13,9 +13,8 @@
     --font-regular: Roboto-Regular;
     --font-black:Roboto-Black;
 }
-.responsive{
-  display: none;
-}
+.responsive{display: none;}
+.pc{display: block;}
 html, body {
   height: 100%;
   margin: 0;
@@ -311,6 +310,7 @@ footer{
 
 @media screen and (max-width : 1218px) {
   .responsive{display: block;}
+  .pc{display: none;}
   /*nav*/
   nav{
     z-index: 4 ;
