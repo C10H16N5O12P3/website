@@ -1,6 +1,5 @@
 
 console.log("linked");
-
 //responsive menu
 function menu(){
     console.log('click');

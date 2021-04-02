@@ -10,10 +10,11 @@ function button_color(buttons, color){
 nav = document.getElementById("nav"); 
 buttons = Array.prototype.slice.call(document.getElementsByTagName("a"));
 
-nav.style.backgroundColor="transparent";
-button_color(buttons, "white");
-  
-window.addEventListener('scroll', () => {
+
+if(window.innerWidth >= 1218){
+    nav.style.backgroundColor="transparent";
+    button_color(buttons, "white");
+    window.addEventListener('scroll', () => {
   let y = window.scrollY ; 
   if(y<500){ //scrolling down
     nav.style.backgroundColor="transparent"; 
@@ -24,6 +25,8 @@ window.addEventListener('scroll', () => {
     button_color(buttons, "black");
   }
 })
+}
+
 </script>
 
 
