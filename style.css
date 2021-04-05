@@ -289,6 +289,9 @@ details{
   text-align: center;
   margin-top: calc(50vh - 50px);
 }
+.download_content a{
+  color: white;
+}
 /*footer*/
 
 .push{
