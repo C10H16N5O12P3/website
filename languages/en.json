@@ -1,17 +1,123 @@
 {
     "buttons" : ["Play", "Explore"], 
-    "dropdown" : ["Discover the game", "Team Presentation", "Switch to french"],
-    "description" : "Beyond Styx est un jeu de rôle au tour par tour pour un ou deux joueurs où l’on incarne desdemi-dieux qui s’échappent des enfers. Le jeu se déroule dans une époque inspirée de la mythologiegrecque. Le héros trouvera des ennemis qui vont tout faire pour l’empêcher d’atteindre son but. Audébut du jeu, le joueur sélectionne le dieu avec lequel il a le plus d’affinités, ce dernier lui procureraalors certaines des capacités qui augmenteront au fur et à mesure des niveaux. Le joueur peut soitcontrôler l’équipe de demi-dieux ou bien faire appel à un ami pour contrôler un membre du groupe.",
+    "dropdown" : ["Discover the game", "Team Presentation", "Project","Switch to french"],
+    "description" : "Beyond Styx is a RPG with mecanics of turn based strategy made for one or two players who incarn semi-gods escaping from hell. The game takes place in a greek's mythology like period. The hero is going to face ennemies who will do everything to stop him. At the begenning, the player has to choose the god he will play, that will give several abilities upgradable throughout the journey. The player can whether control the squad or team up with a friend controlling the other member of the squad.",
     "presentation" : [
         {
-            "title" : "Stratégie",
-            "txt_presentation" : "Dans animal crossing new leaf blabla il est vraiment bien"
+            "title" : "Strategy",
+            "txt_presentation" : "Use your intelligence to face the monsters of the underworld."
         },
         {
-            "title" : "Equipe",
-            "txt_presentation": "Joue en équipe blabla tu connais"
+            "title" : "Team",
+            "txt_presentation": " Collaborate as a team in the online multiplayer mode to complete missions."
+        },
+        {
+            "title" : "Explore",
+            "txt_presentation": "Explore the beautiful and terrifying world of Beyond Styx"
+        }
+    ],
+    "team_title" : "Team presentation",
+    "team_description" : "Nous sommes une petite équipe blabla gné gné",
+    "team": [
+        {
+            "name" : "Darius", 
+            "txt" : "My name is Darius ENGLER. I am a graduate of a Terminale S specialising in Mathematics and I have been interested in the field of computer science for several years. As I already have some experience in programming I have been appointed group leader. I will therefore take advantage of this project to acquire more skills in this field. I'm not someone who plays video games a lot but it's still a field that I'm in and that I find very interesting.", 
+            "work": ["interface", "multiplayer", "ai", "camera"]
+        },
+        {
+            "name" : "Thomas", 
+            "txt" : "My name is XU Thomas, I have just graduated from terminal S in the SVT sector, having already been involved in IT and finding the subject attractive, but above all out of a desire to give up chemistry, I naturally turned to IT and therefore to EPITA.", 
+            "work": ["audio", "level design", "graphic", "web", "ai"]
+        },
+        {
+            "name" : "Pierre", 
+            "txt" : "My name is Pierre Bourrely. As early as my year of second year, I knew that I wanted to go to an engineering school. I discovered my passion for computers and I wanted to learn my field. I joined EPITA in order to deepen my knowledge in this field.", 
+            "work": ["graphic", "gameplay", "audio", "multiplayer", "camera"]
+        },
+        {
+            "name" : "Aniss", 
+            "txt" : "My name is Outaleb Aniss, I am a student in the first year of the preparatory cycle at EPITA. When I was younger I was curious to understand how websites were designed, so I started using HTML, CSS and Javascript. I then wanted to understand more about computers in general and other computer languages. It was only natural that after obtaining the scientific baccalaureate with a mathematical speciality that I went to EPITA.", 
+            "work": ["ai", "web", "level design", "gameplay", "interface"]
+        }
+    ], 
+
+    "doc_title" : "Documentation",
+    "doc_description" : "",
+    "doc" : [
+        {
+            "summary" : "Software used", 
+            "details" : "We used these software for the project :",
+            "soft" : [
+                {
+                    "name" :"Unity",
+                    "url" : "https://unity.com/"
+                },
+                {
+                    "name" :"Github",
+                    "url" : "https://github.com/"
+                },
+                {
+                    "name" :"Photoshop",
+                    "url" : "https://www.adobe.com/products/photoshop.html"
+                },
+                {
+                    "name" :"Visual studio",
+                    "url" : "https://visualstudio.microsoft.com/"
+                },
+                {
+                    "name" :"Visual studio Code",
+                    "url" : "https://code.visualstudio.com/"
+                },
+                {
+                    "name" :"Rider",
+                    "url" : "https://www.jetbrains.com/rider/"
+                },
+                {
+                    "name" :"Discord",
+                    "url" : "https://discord.com/"
+                }
+            ]
+        },
+        {
+            "summary" : "Scope statement", 
+            "details" :"Download the scope statement"
+        },
+        {
+            "summary" : "First step", 
+            "details" : "Download the first step"
+        },
+        {
+            "summary" : "Second step", 
+            "details" : "Download the second step"
+        },
+        {
+            "summary" : "Last step", 
+            "details" : "Download the last step"
         }
     ],
 
-    "footer" : " "
+    "progress_title" : "Progress",
+    "progress_description" : "Follow the progress of the project from its inception", 
+    "progress" : [
+        {
+            "achievement" : "Start of the project",
+            "date" : "xx/xx/xx",
+            "details" : ""
+        },
+        {
+            "achievement" : "First presentation",
+            "date" : "xx/xx/xx",
+            "details" : ""
+        }
+    ],
+
+    "download" : "Coming soon :", 
+    "footer" : "Find us :",
+
+    "error" : [
+        {
+            "code" : "404",
+            "details" : "Your page doesn't exists"
+        }
+    ]
 }

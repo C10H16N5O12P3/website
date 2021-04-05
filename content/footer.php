@@ -1,0 +1,2 @@
+<span class="footer_txt"><?php echo $txt->{"footer"}?></span>
+<span class="footer_img" style=""><a href="https://github.com/BeyondStyx" onclick="window.open(this.href); return false"><img src="icon/footer/github.png" height="30" width="30"></a></span>

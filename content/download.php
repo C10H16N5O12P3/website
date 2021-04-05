@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="down_content">
 <div id="bigtitle" style="text-align:center">Télécharger</div>
 <table class="down_table" style="width:100%; background: #512500; color: white" >
@@ -29,3 +30,20 @@
 <div id="bigtitle" style="text-align:center">Comment jouer</div>
 
 </div> 
+=======
+
+
+<span class=globe>
+<div class="center-center"> 
+<?php echo ($txt->{"download"})?>
+<div id="bigtitle">07/06/21</div>
+
+</div>
+
+<div class="content_project">
+</div>
+<footer>
+    <?php include "content/footer.php"?>
+</footer>
+</span>
+>>>>>>> main
