@@ -71,14 +71,22 @@
                 echo '<div id="bigtitle" style="margin-top: 100px">'.$member->{"name"}.'</div>';
                 echo "<div class='team_txt'>".$member->{"txt"}."</div>";
                 echo "<br>";
+                echo "<table style='text-align: center; margin-left: auto; margin-right: auto;'>";
+                echo "<tr>";
                 foreach ($member->{"work"} as $src){
-                    echo "<span title='".$src."'><img src='icon/work/".$src.".png' width=50 height=50></span>";
+                    echo "<td><span title='".$src."'><img src='icon/work/".$src.".png' width=50 height=50></span></td>";
                 }
+                echo "</tr><tr>";
+                foreach ($member->{"work"} as $work){
+                    echo "<td>".$work."</td>";
+                }
+                echo "</tr>";
+                echo "</table>";
             }
         ?>
     </div>
 </div>
-
+<div class="push"></div>
 <footer>
     <?php include "content/footer.php"?>
 </footer>
