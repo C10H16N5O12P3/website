@@ -18,6 +18,7 @@
     ],
 
     "team_title": "Présentation de l'équipe", 
+    "team_description" : "Nous sommes une petite équipe blabla gné gné",
     "team": [
         {
             "name" : "Darius", 

@@ -24,30 +24,57 @@
 
         <details>
             <summary><?php echo ($txt->{"doc"}[1]->{"summary"})?></summary>
-            <iframe src="documents/cdc.pdf" width="100%" height="500px">
-                <a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[1]->{"details"})?></a>
-            </iframe>
+            <div class="pc">
+                <iframe src="documents/cdc.pdf" width="100%" height="500px">
+                    <br><a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[1]->{"details"})?></a>
+                </iframe>
+            </div>
+            
+            <div class="responsive">
+                <br><a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[1]->{"details"})?></a>
+            </div>
         </details>
 
         <details>
             <summary><?php echo ($txt->{"doc"}[2]->{"summary"})?></summary>
-            <iframe src="documents/1st.pdf" width="100%" height="500px">
-                <a href="documents/1st.pdf"><?php echo ($txt->{"doc"}[2]->{"details"})?></a>
-            </iframe>
+            <div class="pc">
+                <iframe src="documents/1st.pdf" width="100%" height="500px">
+                    <br><a href="documents/1st.pdf"><?php echo ($txt->{"doc"}[2]->{"details"})?></a>
+                </iframe>
+            </div>
+
+            <div class="responsive">
+                <br><a href="documents/1st.pdf"><?php echo ($txt->{"doc"}[2]->{"details"})?></a>
+            </div>
+            
         </details>
 
         <details>
             <summary><?php echo ($txt->{"doc"}[3]->{"summary"})?></summary>
-            <iframe src="documents/cdc.pdf" width="100%" height="500px">
-                <a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[3]->{"details"})?></a>
-            </iframe>
+            
+            <div class="pc">
+                <iframe src="documents/cdc.pdf" width="100%" height="500px">
+                    <br><a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[3]->{"details"})?></a>
+                </iframe>
+            </div>
+
+            <div class="responsive">
+                <br><a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[3]->{"details"})?></a>
+            </div>
         </details>
 
         <details>
             <summary><?php echo ($txt->{"doc"}[4]->{"summary"})?></summary>
-            <iframe src="documents/cdc.pdf" width="100%" height="500px">
-                <a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[4]->{"details"})?></a>
-            </iframe>
+
+            <div class="pc">
+                <iframe src="documents/cdc.pdf" width="100%" height="500px">
+                    <br><a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[4]->{"details"})?></a>
+                </iframe>
+            </div>
+            
+            <div class="reponsive">
+                <br><a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[4]->{"details"})?></a>
+            </div>
         </details>
 
     <!-- Progression -->

@@ -270,6 +270,8 @@ td {
   padding: 15px;
 }
 
+.team_txt {background-color: #512500; color: white;}
+
 #tbl img{
   width: 50;
   height: 50;
