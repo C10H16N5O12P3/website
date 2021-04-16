@@ -52,7 +52,11 @@ if( isset( $_GET['page'] ) ) {
 
 </nav>
 <script src="script.js"></script>
-<span class="responsive" id="nav_ico" onclick="menu();">Ouvrir/Fermer</span>
+<span class="responsive" id="nav_ico" onclick="menu();">
+<div></div>
+<div></div>
+<div></div>
+</span>
 <span class="responsive" id="respmenu"></span> 
 <span class="responsive" id="respbar"></span>
 <span id="logo"><a href="index.php?lang=<?php echo $lang ?>"><img src="icon/C10.png" width="40px" ></a></span>

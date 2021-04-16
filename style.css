@@ -129,6 +129,29 @@ li a:hover {
   position: fixed;
   margin-left: 63px;
   z-index: 5;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+#nav_ico div {
+  position: relative;
+  background-color: black;
+  
+  height : 12px;
+  margin-bottom: 12px;
+
+  transition: 0.3s ease transform, 0.3s ease top, 0.3s ease width, 0.3s ease right;
+}
+#nav_ico div:first-child {
+  transform-origin: 0;
+}
+nav_ico div:nth-child(2){
+  right: 0;
+  width: 60px;
+}
+#nav_ico div:last-child {
+  margin-bottom: 0;
+  transform-origin: 60px;
 }
 /*content*/
 .content{
