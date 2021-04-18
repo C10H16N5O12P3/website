@@ -11,9 +11,6 @@
 <link href="style.css?<?php echo time()?>" rel="stylesheet">
 <title>Beyond Styx</title>
 </head>
-
-<body>
-
 <?php 
 //set the language
 $lang="fr"; //default language
@@ -29,9 +26,15 @@ $page="home";
 if( isset( $_GET['page'] ) ) {
   $page=$_GET['page']; 
 }
+
+//set theme
+$theme = "dark";
+if( isset( $_GET['theme'])){
+  $theme = $_GET['theme'];
+}
+
 ?>
-
-
+<body class="<?php echo $theme?>">
 
 <nav id="nav" style="background-color: #FFE5D0;">
 <ul class="left">
