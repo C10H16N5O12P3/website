@@ -83,25 +83,19 @@
         <div style="text-align: center; ">
             <?php echo ($txt->{"progress_description"})?>
         </div> 
-        <div class="flex" id="txt_right">
-        <div class="img_flex" style=""><span id="bigtitle"><?php echo $txt->{"progress"}[0]->{"date"}?></span></div> 
-        <div class="txt_flex">
-            <span id="bigtitle"><?php echo $txt->{"progress"}[0]->{"achievement"}?></span>
-            <div>
-                <?php echo $txt->{"progress"}[0]->{"details"}?>
-            </div>
-        </div>
-    </div>
-    <div class="flex" id="txt_left">
-        <div class="txt_flex">
-            <span id="bigtitle"><?php echo $txt->{"progress"}[1]->{"achievement"}?></span>
-            <div>
-                <?php echo $txt->{"progress"}[1]->{"details"}?>
-            </div>
-        </div>
-        <div class="img_flex"><span id="bigtitle"><?php echo $txt->{"progress"}[1]->{"date"}?></span></div>
-    </div>
-    
+    <?php
+    $n = 0; 
+    foreach ($txt->{"progress"} as $p) {
+        if ($n%2 == 0){
+            echo "<div class='flex' id='txt_right'><div class='img_flex'><span id='bigtitle'>".$p->{"date"}."</span></div><div class='text_flex'><span id='bigtitle'>".$p->{"achievement"}."</span><div>".$p->{"details"}."</div></div></div>";
+        }
+        else{
+            echo "<div class='flex' id='txt_left'><div class='txt_flex'><span id='bigtitle'>".$p->{"achievement"}."</span><div>".$p->{"details"}."</div></div><div class='img_flex'><span id='bigtitle'>".$p->{"date"}."</span></div></div>";
+        }
+        $n++;
+    }
+    ?>
+ 
 
     <div class="push"></div>   
 
