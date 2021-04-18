@@ -27,8 +27,9 @@ body{
     font-family:var(--font-regular) ;
     background-color: white;
     color: black;
+    overflow-x: hidden;
 }
-body, .dark{
+body.dark{
   background-color: black;
   color: white;
 }
@@ -40,9 +41,13 @@ nav{
   margin-bottom: 0px;
   font-family: var(--font-regular);
   z-index: 3 ;
+  background-color: var(--light-pink);
   transition: background-color 0.4s; /*pb! disparait après presentation*/
 }
 
+body.dark nav{
+  background-color: var(--dark-pink);
+}
 
 ul[class="left"] {
   list-style-type: none;
