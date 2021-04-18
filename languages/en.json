@@ -108,6 +108,11 @@
             "achievement" : "First presentation",
             "date" : "xx/xx/xx",
             "details" : ""
+        },
+        {
+            "achievement" : "Publication of the website",
+            "date" : "19/04/21",
+            "details" : "The site you are currently viewing was developed in PHP/HTML/CSS/JS by us and we host it on a VPS that we rented from Pulseheberg"
         }
     ],
 
