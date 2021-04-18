@@ -125,33 +125,55 @@ li a:hover {
   top: 1px ; 
   z-index: 4;
 }
-#nav_ico{
+  /*hamburger menu*/
+.menu-btn{
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 63px;
+  margin-top: 3px;
   z-index: 5;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 45px;
   cursor: pointer;
+  transition: all .5s ease-in-out;
 }
-#nav_ico div {
-  position: relative;
-  background-color: black;
-  
-  height : 12px;
-  margin-bottom: 12px;
 
-  transition: 0.3s ease transform, 0.3s ease top, 0.3s ease width, 0.3s ease right;
+.menu-btn_burger{
+  width: 50px;
+  height: 6px;
+  background: black;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
 }
-#nav_ico div:first-child {
-  transform-origin: 0;
+.menu-btn_burger::after, .menu-btn_burger::before{
+  content: '';
+  position: fixed;
+  width: 50px;
+  height: 6px;
+  background: black;
+  transition: all .5 ease-in-out;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
 }
-nav_ico div:nth-child(2){
-  right: 0;
-  width: 60px;
+
+.menu-btn_burger::after{
+  transform: translateY(+15px);
 }
-#nav_ico div:last-child {
-  margin-bottom: 0;
-  transform-origin: 60px;
+.menu-btn_burger::before{
+  transform: translateY(-15px);
+}
+  /*hamburger menu animation*/
+.menu-btn.open .menu-btn_burger{
+  transform: translateX(-50px);
+  background: transparent;
+}
+.menu-btn.open .menu-btn_burger::before{
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+.menu-btn.open .menu-btn_burger::after{
+  transform: rotate(45deg) translate(35px, -35px);
 }
 /*content*/
 .content{

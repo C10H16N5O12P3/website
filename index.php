@@ -51,12 +51,12 @@ if( isset( $_GET['page'] ) ) {
 </div>
 
 </nav>
+
+
+<div class="menu-btn" id="nav_ico" onclick="menu();">
+<div class="menu-btn_burger"></div>
 <script src="script.js"></script>
-<span class="responsive" id="nav_ico" onclick="menu();">
-<div></div>
-<div></div>
-<div></div>
-</span>
+</div>
 <span class="responsive" id="respmenu"></span> 
 <span class="responsive" id="respbar"></span>
 <span id="logo"><a href="index.php?lang=<?php echo $lang ?>"><img src="icon/C10.png" width="40px" ></a></span>
