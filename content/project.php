@@ -87,7 +87,7 @@
     $n = 0; 
     foreach ($txt->{"progress"} as $p) {
         if ($n%2 == 0){
-            echo "<div class='flex' id='txt_right'><div class='img_flex'><span id='bigtitle'>".$p->{"date"}."</span></div><div class='text_flex'><span id='bigtitle'>".$p->{"achievement"}."</span><div>".$p->{"details"}."</div></div></div>";
+            echo "<div class='flex' id='txt_right'><div class='img_flex'><span id='bigtitle'>".$p->{"date"}."</span></div><div class='txt_flex'><span id='bigtitle'>".$p->{"achievement"}."</span><div>".$p->{"details"}."</div></div></div>";
         }
         else{
             echo "<div class='flex' id='txt_left'><div class='txt_flex'><span id='bigtitle'>".$p->{"achievement"}."</span><div>".$p->{"details"}."</div></div><div class='img_flex'><span id='bigtitle'>".$p->{"date"}."</span></div></div>";
@@ -95,7 +95,7 @@
         $n++;
     }
     ?>
- 
+    
 
     <div class="push"></div>   
 
