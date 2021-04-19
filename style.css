@@ -310,12 +310,17 @@ footer{
   height: 60px;
   padding-top: 10px;
 }
+body.dark footer{
+  background-color: var(--light-pink);
+  color : black;
+}
 .footer_txt{
   display: block;
 }
 .footer_img {
   display: inline-block;
   margin-top: 5px ;
+  filter: invert();
 }
 
 @media screen and (max-width : 1218px) {

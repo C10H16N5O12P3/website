@@ -6,7 +6,8 @@ function button_color(buttons, color){
     }
 }
 
-navcolor = document.body.className == "dark" ? "#FFE5D0" : "#FFE5D0";
+navcolor = document.body.className == "dark" ? "#512500" : "#FFE5D0";
+buttonColor = document.body.className == "dark" ? "white" : "black";
 nav = document.getElementById("nav"); 
 buttons = Array.prototype.slice.call(document.getElementsByTagName("a"));
 
@@ -22,7 +23,7 @@ if(window.innerWidth >= 1218){
   }
   else{ //scrolling up
     nav.style.backgroundColor= navcolor;
-    button_color(buttons, "black");
+    button_color(buttons, buttonColor);
   }
 })
 }
