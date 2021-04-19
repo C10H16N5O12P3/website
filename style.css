@@ -348,7 +348,7 @@ footer{
   }
   ul[class="left"]{
     display: block;
-    position: absolute;
+    position: fixed;
     width: 100%;
     margin-left: 0;
     top: 200px;
@@ -356,7 +356,7 @@ footer{
   
   .right{
     text-align: center;
-    position: absolute;
+    position: fixed;
     top: calc(100vh - 45px);
     right: auto;
     width: 100%;
@@ -376,7 +376,7 @@ footer{
     list-style-type: none;
     display: none;
     z-index: 4;
-    position: absolute;
+    position: fixed;
     width: 100%;
     margin-left: 0;
     top: 300px;
