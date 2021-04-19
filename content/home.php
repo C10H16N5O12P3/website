@@ -6,7 +6,7 @@ function button_color(buttons, color){
     }
 }
 
-navcolor = document.body.className == "dark" ? "#FFE5D0" : "white";
+navcolor = document.body.className == "dark" ? "#FFE5D0" : "#FFE5D0";
 nav = document.getElementById("nav"); 
 buttons = Array.prototype.slice.call(document.getElementsByTagName("a"));
 

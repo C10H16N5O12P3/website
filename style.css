@@ -47,6 +47,7 @@ nav{
 
 body.dark nav{
   background-color: var(--dark-pink);
+  color: white;
 }
 
 ul[class="left"] {
@@ -85,7 +86,9 @@ li a {
   text-decoration: none;
   border-top: 6px solid transparent;
 }
-
+body.dark li a{
+  color : white;
+}
 li a:hover {
   border-top: 6px solid var(--dark-pink);
 }
@@ -340,6 +343,9 @@ footer{
     z-index: 3 ;
 
   }
+  body.dark #respmenu {
+    background-color: var(--dark-pink);
+  }
   ul[class="left"]{
     display: block;
     position: absolute;
@@ -384,6 +390,10 @@ footer{
     border-top: 0px;
     background-color: var(--dark-pink);
     color: white;
+  }
+  body.dark li a:hover {
+    color: black;
+    background-color: var(--light-pink);
   }
   #active{
     font-weight: bold;
