@@ -159,7 +159,9 @@ li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+#home-logo{
+  width : 450px;
+}
 .center-box{
   position: absolute;
   top: 480px ; /*500px with txt*/
@@ -534,5 +536,11 @@ body.dark footer{
   }
   .right{
     top: calc(100% - 45px);
+  }
+  #bigtitle{
+    font-size: 45px;
+  }
+  #home-logo{
+    width: 100%;
   }
 }

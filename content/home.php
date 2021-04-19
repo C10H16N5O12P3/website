@@ -34,7 +34,7 @@ if(window.innerWidth >= 1218){
 
 <div class="background"></div> 
 <div class="center-box">
-    <div id="bigtitle"><img src="icon/logo_text_web.png" width="450" ></div>
+    <div id="bigtitle"><img src="icon/logo_text_web.png" id="home-logo"></div>
     <div id="description"><?php echo ($txt->{'description'})?></div>
     
     <div id="presentation">
