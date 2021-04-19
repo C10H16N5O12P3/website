@@ -7,8 +7,6 @@
   src : url("fonts/Roboto/black/Roboto-Black.ttf") format("truetype");
 }
 :root {
-    --body-bg : white; 
-    --color : black;
     --light-pink : #FFE5D0; 
     --dark-pink : #512500; 
     --font-regular: Roboto-Regular;
@@ -27,10 +25,14 @@ body{
     margin-left: 0%;
     margin-right: 0%;
     font-family:var(--font-regular) ;
-    background-color: var(--body-bg);
-    color: var(--color);
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
 }
-
+body.dark{
+  background-color: black;
+  color: white;
+}
 /*navigation bar*/
 nav{
   position: -webkit-sticky;
@@ -39,9 +41,13 @@ nav{
   margin-bottom: 0px;
   font-family: var(--font-regular);
   z-index: 3 ;
+  background-color: var(--light-pink);
   transition: background-color 0.4s; /*pb! disparait après presentation*/
 }
 
+body.dark nav{
+  background-color: var(--dark-pink);
+}
 
 ul[class="left"] {
   list-style-type: none;
@@ -153,7 +159,7 @@ li a:hover {
   position: absolute;
   top: 480px ; /*500px with txt*/
   text-align: center;
-  color: black;
+  
   font-family: var(--font-regular);
   font-style: normal;
   z-index: 1;
@@ -335,6 +341,7 @@ footer{
 
   }
   ul[class="left"]{
+    display: block;
     position: absolute;
     width: 100%;
     margin-left: 0;
@@ -356,7 +363,15 @@ footer{
     width: 100%;
     z-index: 4;
   }
-
+  #settings{
+    list-style-type: none;
+    display: none;
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    margin-left: 0;
+    top: 300px;
+  }
   .left li{
     float : none;
     display: block;

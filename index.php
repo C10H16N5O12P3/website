@@ -11,9 +11,6 @@
 <link href="style.css?<?php echo time()?>" rel="stylesheet">
 <title>Beyond Styx</title>
 </head>
-
-<body>
-
 <?php 
 //set the language
 $lang="fr"; //default language
@@ -29,25 +26,36 @@ $page="home";
 if( isset( $_GET['page'] ) ) {
   $page=$_GET['page']; 
 }
+
+//set theme
+$theme = "light";
+if( isset( $_GET['theme'])){
+  $theme = $_GET['theme'];
+}
+
 ?>
+<body class="<?php echo $theme?>">
 
-
-
-<nav id="nav" style="background-color: #FFE5D0;">
+<nav id="nav">
 <ul class="left">
-  <li><a href="index.php?page=download&amp;lang=<?php echo $lang?>" id="<?php if($page == "download"){echo "play_button_active";} else {echo "play_button";}?>"><?php echo ($txt->{'buttons'})[0]?></a></li>
-  <li><a href="index.php?page=home&amp;lang=<?php echo $lang?>" id="<?php if($page == "home"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[0]?></a></li>
-  <li><a href="index.php?page=team&amp;lang=<?php echo $lang?>" id="<?php if($page == "team"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[1]?></a></li>
-  <li class="dropdown"><a href="index.php?page=project&amp;lang=<?php echo $lang?>" id="<?php if($page == "project"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[2]?></a>
+  <li><a href="index.php?page=download&amp;lang=<?php echo $lang?>&amp;theme=<?php echo $theme?>" id="<?php if($page == "download"){echo "play_button_active";} else {echo "play_button";}?>"><?php echo ($txt->{'buttons'})[0]?></a></li>
+  <li><a href="index.php?page=home&amp;lang=<?php echo $lang?>&amp;theme=<?php echo $theme?>" id="<?php if($page == "home"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[0]?></a></li>
+  <li><a href="index.php?page=team&amp;lang=<?php echo $lang?>&amp;theme=<?php echo $theme?>" id="<?php if($page == "team"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[1]?></a></li>
+  <li class="dropdown"><a href="index.php?page=project&amp;lang=<?php echo $lang?>&amp;theme=<?php echo $theme?>" id="<?php if($page == "project"){echo "active";}?>"><?php echo ($txt->{'dropdown'})[2]?></a>
   <div class="dropdown-content">
-      <a href="index.php?page=project&amp;lang=<?php echo $lang?>#doc">Documentation</a>
-      <a href="index.php?page=project&amp;lang=<?php echo $lang?>#progress">Avancement</a>
+      <a href="index.php?page=project&amp;lang=<?php echo $lang?>&amp;theme=<?php echo $theme?>#doc"><?php echo ($txt->{'dropdown-content'})[0]?></a>
+      <a href="index.php?page=project&amp;lang=<?php echo $lang?>&amp;theme=<?php echo $theme?>#progress"><?php echo ($txt->{'dropdown-content'})[1]?></a>
     </div>
   </li>
 </ul>
 
 <div class="right">
- <li><a href="index.php?page=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>"><?php echo ($txt->{'dropdown'})[3]?></a></li>
+ <li class="dropdown" onclick="setting();"><a id="settings_title"><?php echo ($txt->{'dropdown'})[3]?></a>
+ <div class="dropdown-content">
+      <a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>&amp;theme=<?php echo $theme?>"><?php echo ($txt->{'dropdown-content'})[2]?></a>
+      <a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $lang?>&amp;theme=<?php if($theme=="dark") {echo "light";} else {echo "dark";}?>"><?php if($theme=="dark") {echo "Light mode";} else {echo "Dark mode";}?></a>
+    </div>
+  </li>
 </div>
 
 </nav>
@@ -59,8 +67,13 @@ if( isset( $_GET['page'] ) ) {
 </div>
 <span class="responsive" id="respmenu"></span> 
 <span class="responsive" id="respbar"></span>
+<span class="responsive" id="settings" style="display: none;">
+  <li><a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>&amp;theme=<?php echo $theme?>"><?php echo ($txt->{'dropdown-content'})[2]?></a></li>
+  <li><a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $lang?>&amp;theme=<?php if($theme=="dark") {echo "light";} else {echo "dark";}?>"><?php if($theme=="dark") {echo "Light mode";} else {echo "Dark mode";}?></a></li>
+</span>
 <span id="logo"><a href="index.php?lang=<?php echo $lang ?>"><img src="icon/C10.png" width="40px" ></a></span>
 
+<script src="script.js"></script>
 
 <div class="content">
 <?php
