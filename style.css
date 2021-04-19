@@ -344,6 +344,7 @@ footer{
     z-index: 3 ;
   }
   ul[class="left"]{
+    display: block;
     position: absolute;
     width: 100%;
     margin-left: 0;
@@ -365,7 +366,15 @@ footer{
     width: 100%;
     z-index: 4;
   }
-
+  #settings{
+    list-style-type: none;
+    display: none;
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    margin-left: 0;
+    top: 300px;
+  }
   .left li{
     float : none;
     display: block;
