@@ -132,8 +132,10 @@ li a:hover {
 }
 #logo{
   position: fixed;
-  margin-left: 50%;
-  margin-right:50%;
+  left: 50%;
+  right:50%;
+  transform-origin: center;
+  transform: translate(-50%, 0%);
   top: 1px ; 
   z-index: 4;
 }
