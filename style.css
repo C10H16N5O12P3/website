@@ -532,4 +532,7 @@ body.dark footer{
   .menu-btn{
     margin-left: 5px;
   }
+  .right{
+    top: calc(100% - 45px);
+  }
 }

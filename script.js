@@ -4,6 +4,7 @@ function menu(){
     if(document.getElementById("nav").style.display == "block"){
         document.getElementById("nav").style.display = "none";
         document.getElementById("respmenu").style.display = "none";
+        document.getElementById("settings").style.display = "none";
         document.body.style.overflowY = "scroll";
         menuBtn.classList.remove('open');
     }
