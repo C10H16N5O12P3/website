@@ -10,6 +10,7 @@ function menu(){
     }
     else{
         document.getElementById("nav").style.display = "block";
+        document.getElementsByClassName("left")[0].style.display = "block"; 
         document.getElementById("respmenu").style.display = "block";
         document.body.style.overflowY = "hidden";
         menuBtn.classList.add("open");
