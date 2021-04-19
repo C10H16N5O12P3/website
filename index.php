@@ -71,7 +71,7 @@ if( isset( $_GET['theme'])){
   <li><a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>&amp;theme=<?php echo $theme?>"><?php echo ($txt->{'dropdown-content'})[2]?></a></li>
   <li><a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $lang?>&amp;theme=<?php if($theme=="dark") {echo "light";} else {echo "dark";}?>"><?php if($theme=="dark") {echo "Light mode";} else {echo "Dark mode";}?></a></li>
 </span>
-<span id="logo"><a href="index.php?lang=<?php echo $lang ?>"><img src="icon/C10.png" width="40px" ></a></span>
+<span id="logo"><a href="index.php?lang=<?php echo $lang ?>"><img src="icon/C10<?php if($theme == "dark"){echo "white";}?>.png" width="40px" ></a></span>
 
 <script src="script.js"></script>
 
