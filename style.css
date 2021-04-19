@@ -142,8 +142,10 @@ body.dark #play_button_active {
 }
 #logo{
   position: fixed;
-  margin-left: 50%;
-  margin-right:50%;
+  left: 50%;
+  right:50%;
+  transform-origin: center;
+  transform: translate(-50%, 0%);
   top: 1px ; 
   z-index: 4;
 }
@@ -167,7 +169,9 @@ body.dark #play_button_active {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+#home-logo{
+  width : 450px;
+}
 .center-box{
   position: absolute;
   top: 480px ; /*500px with txt*/
@@ -535,3 +539,18 @@ body.dark footer{
     flex: 1 1 ;
   }
 } 
+
+@media screen and (max-width : 425px){
+  .menu-btn{
+    margin-left: 5px;
+  }
+  .right{
+    top: calc(100% - 45px);
+  }
+  #bigtitle{
+    font-size: 45px;
+  }
+  #home-logo{
+    width: 100%;
+  }
+}
