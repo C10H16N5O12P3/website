@@ -345,6 +345,9 @@ body.dark footer{
     z-index: 4 ;
     display: none;
   }
+  body.dark #logo {
+    filter: invert();
+  }
   #respbar{
     display: block;
     position: fixed;
