@@ -31,4 +31,5 @@ function setting(){
 
 if(window.screen.width< 1218){
     document.getElementsByClassName("dropdown")[1].setAttribute("onclick", "setting()");
+    document.getElementById("dropdown-settings").style.display = "none";
 }

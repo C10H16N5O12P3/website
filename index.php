@@ -51,7 +51,7 @@ if( isset( $_GET['theme'])){
 
 <div class="right">
  <li class="dropdown"><a id="settings_title"><?php echo ($txt->{'dropdown'})[3]?></a>
- <div class="dropdown-content">
+ <div class="dropdown-content" id="dropdown-settings">
       <a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>&amp;theme=<?php echo $theme?>"><?php echo ($txt->{'dropdown-content'})[2]?></a>
       <a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $lang?>&amp;theme=<?php if($theme=="dark") {echo "light";} else {echo "dark";}?>"><?php if($theme=="dark") {echo $txt->{"theme"}[0];} else {echo $txt->{"theme"}[1];}?></a>
     </div>
