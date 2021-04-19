@@ -320,9 +320,10 @@ body.dark footer{
 .footer_img {
   display: inline-block;
   margin-top: 5px ;
+}
+body.dark .footer_img{
   filter: invert();
 }
-
 @media screen and (max-width : 1218px) {
   .responsive{display: block;}
   .pc{display: none;}
