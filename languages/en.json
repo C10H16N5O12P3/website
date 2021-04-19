@@ -3,7 +3,7 @@
     "dropdown" : ["The game", "The team", "Project","Settings"],
     "dropdown-content" : ["Documentation", "Progress", "Switch to french"],
     "theme" : ["Light mode", "Dark mode"],
-    "description" : "Beyond Styx is a RPG with mecanics of turn based strategy made for one or two players who incarn semi-gods escaping from hell. The game takes place in a greek's mythology like period. The hero is going to face ennemies who will do everything to stop him. At the begenning, the player has to choose the god he will play, that will give several abilities upgradable throughout the journey. The player can whether control the squad or team up with a friend controlling the other member of the squad.",
+    "description" : "Beyond Styx is a RPG with turn based strategy mecanics made for one or two players who incarn semi-gods escaping from Hell. The game takes place in a Greek mythology like period. The hero is going to face ennemies who will do everything to stop him. At the begenning, the player has to choose the god he will play, that will give several abilities upgradable throughout the journey. The player can whether control the squad or team up with a friend controlling the other member of the squad.",
     "presentation" : [
         {
             "title" : "Strategy",
@@ -11,7 +11,7 @@
         },
         {
             "title" : "Team",
-            "txt_presentation": " Collaborate as a team in the online multiplayer mode to complete missions."
+            "txt_presentation": "Collaborate as a team in the online multiplayer mode to complete missions."
         },
         {
             "title" : "Explore",
@@ -23,22 +23,22 @@
     "team": [
         {
             "name" : "Darius", 
-            "txt" : "My name is Darius ENGLER. I am a graduate of a Terminale S specialising in Mathematics and I have been interested in the field of computer science for several years. As I already have some experience in programming I have been appointed group leader. I will therefore take advantage of this project to acquire more skills in this field. I'm not someone who plays video games a lot but it's still a field that I'm in and that I find very interesting.", 
+            "txt" : "My name is Darius ENGLER. I graduated from highschool with a scientific baccalauréat specialized in Mathematics and I have been interested in the field of computer science for several years. As I already have some experience in programming I have been appointed group leader. I will therefore take advantage of this project to acquire more skills in this field. I'm not someone who plays video games a lot but it's still a field that I'm in and that I find very interesting.", 
             "work": ["interface", "multiplayer", "ai", "camera"]
         },
         {
             "name" : "Thomas", 
-            "txt" : "My name is XU Thomas, I have just graduated from terminal S in the SVT sector, having already been involved in IT and finding the subject attractive, but above all out of a desire to give up chemistry, I naturally turned to IT and therefore to EPITA.", 
+            "txt" : "My name is XU Thomas, I have just graduated from highschool with a scientific baccalauréat specialized in biology. Having already been involved in IT and finding the subject attractive, but above all out of a desire to give up chemistry, I naturally turned to IT and therefore to EPITA.", 
             "work": ["audio", "level design", "graphic", "web", "ai"]
         },
         {
             "name" : "Pierre", 
-            "txt" : "My name is Pierre Bourrely. As early as my year of second year, I knew that I wanted to go to an engineering school. I discovered my passion for computers and I wanted to learn my field. I joined EPITA in order to deepen my knowledge in this field.", 
+            "txt" : "My name is Pierre Bourrely. As early as my year of second year, I knew that I wanted to go to an engineering school. I discovered my passion for computers and I wanted to learn computer science. I joined EPITA in order to deepen my knowledge in this field.", 
             "work": ["graphic", "gameplay", "audio", "multiplayer", "camera"]
         },
         {
             "name" : "Aniss", 
-            "txt" : "My name is Outaleb Aniss, I am a student in the first year of the preparatory cycle at EPITA. When I was younger I was curious to understand how websites were designed, so I started using HTML, CSS and Javascript. I then wanted to understand more about computers in general and other computer languages. It was only natural that after obtaining the scientific baccalaureate with a mathematical speciality that I went to EPITA.", 
+            "txt" : "My name is Outaleb Aniss, I am a student in the first year of the preparatory cycle at EPITA. When I was younger I was curious to understand how websites were designed, so I started using HTML, CSS and Javascript. I then wanted to understand more about computers in general and other programming languages. It was only natural that after obtaining the scientific baccalauréat with a mathematical speciality that I went to EPITA.", 
             "work": ["ai", "web", "level design", "gameplay", "interface"]
         }
     ], 
@@ -99,7 +99,7 @@
     ],
 
     "progress_title" : "Progress",
-    "progress_description" : "Follow the progress of the project from its inception", 
+    "progress_description" : "Follow the progress of the project since its beginning", 
     "progress" : [
         {
             "achievement" : "Start of the project",
@@ -114,7 +114,7 @@
         {
             "achievement" : "Publication of the website",
             "date" : "19/04/21",
-            "details" : "The site you are currently viewing was developed in PHP/HTML/CSS/JS by us and we host it on a VPS that we rented from Pulseheberg"
+            "details" : "The site you are currently looking at was developed in PHP/HTML/CSS/JS by us and we are hosting it on a VPS that we rented from Pulseheberg"
         }
     ],
 
@@ -124,7 +124,7 @@
     "error" : [
         {
             "code" : "404",
-            "details" : "Your page doesn't exists"
+            "details" : "This page doesn't exists"
         }
     ]
 }
