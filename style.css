@@ -450,8 +450,8 @@ body.dark footer{
 }
 
 .menu-btn_burger{
-  width: 50px;
-  height: 6px;
+  width: 30px;
+  height: 4px;
   background: var(--dark-pink);
   border-radius: 5px;
   transition: all .5s ease-in-out;
@@ -459,8 +459,8 @@ body.dark footer{
 .menu-btn_burger::after, .menu-btn_burger::before{
   content: '';
   position: fixed;
-  width: 50px;
-  height: 6px;
+  width: 30px;
+  height: 4px;
   background: var(--dark-pink);
   transition: all .5 ease-in-out;
   border-radius: 5px;
@@ -468,10 +468,10 @@ body.dark footer{
 }
 
 .menu-btn_burger::after{
-  transform: translateY(+15px);
+  transform: translateY(+10px);
 }
 .menu-btn_burger::before{
-  transform: translateY(-15px);
+  transform: translateY(-10px);
 }
   /*hamburger menu animation*/
 .menu-btn.open .menu-btn_burger{
