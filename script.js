@@ -28,4 +28,7 @@ function setting(){
         document.getElementById("settings_title").innerHTML = settingsInnerHTML;
     }
 }
-//home menu
+
+if(window.screen.width< 1218){
+    document.getElementsByClassName("dropdown")[1].setAttribute("onclick", "setting()");
+}

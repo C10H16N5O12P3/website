@@ -369,6 +369,9 @@ footer{
     width: 100%;
     z-index: 4;
   }
+  .dropdown-content{
+    display: none;
+  }
   #settings{
     list-style-type: none;
     display: none;
