@@ -21,7 +21,7 @@
         <td>
             <table id="tbl">
                 <tr>
-                    <?php foreach($txt->{"team"}[0]->{"work"} as $src){echo "<td><span title='".$src."'><img src='icon/work/".$src.".png'></span></td> ";}?>
+                    <?php foreach($txt->{"team"}[0]->{"work"} as $src){echo "<td><span title='".$src."'><img src='icon/work/".$theme."/".$src.".png'></span></td> ";}?>
                 </tr>
                 <tr>
                 <?php foreach($txt->{"team"}[0]->{"work"} as $src){echo "<td>".$src."</td> ";}?>
@@ -32,7 +32,7 @@
         <td>
             <table id="tbl">
                 <tr>
-                    <?php foreach($txt->{"team"}[1]->{"work"} as $src){echo "<td><span title='".$src."'><img src='icon/work/".$src.".png'></span></td> ";}?>
+                    <?php foreach($txt->{"team"}[1]->{"work"} as $src){echo "<td><span title='".$src."'><img src='icon/work/".$theme."/".$src.".png'></span></td> ";}?>
                 </tr>
                 <tr>
                 <?php foreach($txt->{"team"}[1]->{"work"} as $src){echo "<td>".$src."</td> ";}?>
@@ -43,7 +43,7 @@
         <td>
             <table id="tbl">
                 <tr>
-                    <?php foreach($txt->{"team"}[2]->{"work"} as $src){echo "<td><span title='".$src."'><img src='icon/work/".$src.".png'></span></td> ";}?>
+                    <?php foreach($txt->{"team"}[2]->{"work"} as $src){echo "<td><span title='".$src."'><img src='icon/work/".$theme."/".$src.".png'></span></td> ";}?>
                 </tr>
                 <tr>
                 <?php foreach($txt->{"team"}[2]->{"work"} as $src){echo "<td>".$src."</td> ";}?>
@@ -54,7 +54,7 @@
         <td>
             <table id="tbl">
                 <tr>
-                    <?php foreach($txt->{"team"}[3]->{"work"} as $src){echo "<td><span title='".$src."'><img src='icon/work/".$src.".png'></span></td> ";}?>
+                    <?php foreach($txt->{"team"}[3]->{"work"} as $src){echo "<td><span title='".$src."'><img src='icon/work/".$theme."/".$src.".png'img src='icon/work/".$theme."/".$src.".png'></span></td> ";}?>
                 </tr>
                 <tr>
                 <?php foreach($txt->{"team"}[3]->{"work"} as $src){echo "<td>".$src."</td> ";}?>
@@ -74,7 +74,7 @@
                 echo "<table style='text-align: center; margin-left: auto; margin-right: auto;'>";
                 echo "<tr>";
                 foreach ($member->{"work"} as $src){
-                    echo "<td><span title='".$src."'><img src='icon/work/".$src.".png' width=50 height=50></span></td>";
+                    echo "<td><span title='".$src."'><img src='icon/work/".$theme."/".$src.".png' width=50 height=50></span></td>";
                 }
                 echo "</tr><tr>";
                 foreach ($member->{"work"} as $work){
