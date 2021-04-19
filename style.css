@@ -525,3 +525,9 @@ body.dark footer{
     flex: 1 1 ;
   }
 } 
+
+@media screen and (max-width : 425px){
+  .menu-btn{
+    margin-left: 5px;
+  }
+}
