@@ -110,6 +110,11 @@
             "achievement" : "Première soutenance",
             "date" : "xx/xx/xx",
             "details" : "Nous avons présenté les premier avancement sur le jeu"
+        },
+        {
+            "achievement" : "Publication du site",
+            "date" : "19/04/21",
+            "details" : "Le site que vous consultez actuellement a été développé en PHP/HTML/CSS/JS par nous-même et nous l'hébergeons sur un VPS que nous avons loué chez Pulseheberg"
         }
     ],
 
