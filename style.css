@@ -426,6 +426,9 @@ body.dark footer{
     color: white;
     border-top: 0px;
   }
+  body.dark #play_button_active {
+    border-top:0px ;
+  }
     /*hamburger menu*/
 .menu-btn{
   position: fixed;
