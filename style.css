@@ -92,7 +92,9 @@ body.dark li a{
 li a:hover {
   border-top: 6px solid var(--dark-pink);
 }
-
+body.dark li a:hover{
+  border-top: 6px solid var(--light-pink);
+}
 .dropdown-content  {
   position: absolute;
   text-align: center;
@@ -113,13 +115,18 @@ li a:hover {
   background-color:#351800;
   border-top: 0px;
 }
+body.dark .dropdown-content a:hover{
+  border-top: 0px;
+}
 .dropdown-content a:hover li[class="dropdown"] a{
   border-top: 6px solid var(--dark-pink);
 }
 #active{
   border-top: 6px solid var(--dark-pink);
 }
-
+body.dark #active {
+  border-top: 6px solid var(--light-pink);
+}
 #play_button{
   background-color: #a52a2a;
   color: white;
@@ -129,6 +136,9 @@ li a:hover {
   background-color: #a52a2a;
   color: white;
   border-top: 6px solid #800303;
+}
+body.dark #play_button_active {
+  border-top : 6px solid var(--light-pink);
 }
 #logo{
   position: fixed;
@@ -403,12 +413,13 @@ body.dark .footer_img{
   body.dark li a:hover {
     color: black;
     background-color: var(--light-pink);
+    border-top : 0px
   }
-  #active{
+  #active, body.dark #active{
     font-weight: bold;
     border-top: 0px;
   }
-  #play_button_active {
+  #play_button_active , body.dark #active{
     font-weight: bold;
     color: white;
     border-top: 0px;
