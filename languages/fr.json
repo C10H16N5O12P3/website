@@ -24,7 +24,7 @@
     "team": [
         {
             "name" : "Darius", 
-            "txt" : "Je m’appelle Darius. Je sors d’une Terminale S spécialité Mathématiques et suisintéressé par le domaine de l’informatique depuis plusieurs années. Étant donné que j’ai déjà un peu d’expérience en programmation j’ai été nommé chef de groupe. Je vais donc profiter de ce projet pour acquérir plus de compétences dans ce domaine. Je ne suis pas une personne qui joue énormément aux jeux-vidéo mais c’est tout de même un domaine que je suis et que je trouve très intéressant.", 
+            "txt" : "Je m’appelle Darius. Je sors d’une Terminale S spécialité Mathématiques et je suis intéressé par le domaine de l’informatique depuis plusieurs années. Étant donné que j’ai déjà un peu d’expérience en programmation j’ai été nommé chef de groupe. Je vais donc profiter de ce projet pour acquérir plus de compétences dans ce domaine. Je ne suis pas une personne qui joue énormément aux jeux-vidéo mais c’est tout de même un domaine que je suis et que je trouve très intéressant.", 
             "work": ["interface", "multiplayer", "ai", "camera"]
         },
         {
@@ -39,7 +39,7 @@
         },
         {
             "name" : "Aniss", 
-            "txt" : "Je me nomme Aniss, je suis élève en première année du cycle préparatoire à EPITA. Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alors que j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite enviede comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’est tout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiqueque je me suis dirigé vers EPITA.", 
+            "txt" : "Je me nomme Aniss, je suis élève en première année du cycle préparatoire à EPITA. Plus jeune j’étais curieux de comprendre comment les sites internet étaient conçus, c’est alors que j’ai fait mes premières armes sur HTML, CSS ainsi que Javascript. J’ai eu ensuite envie de comprendre plus sur les ordinateurs en général et les autres langages informatiques. C’est tout naturellement qu’après l’obtention du baccalauréat scientifique spécialité mathématiques que je me suis dirigé vers EPITA.", 
             "work": ["ai", "web", "level design", "gameplay", "interface"]
         }
     ], 
@@ -104,17 +104,17 @@
     "progress" : [
         {
             "achievement" : "Début du projet",
-            "date" : "xx/xx/xx",
+            "date" : "29/01/2021",
             "details" : "Une fois le cahier des charges validé, nous avons pu commencer le projet."
         },
         {
             "achievement" : "Première soutenance",
-            "date" : "xx/xx/xx",
-            "details" : "Nous avons présenté les premier avancement sur le jeu"
+            "date" : "02/03/2021",
+            "details" : "Nous avons présenté les premiers avancements sur le jeu"
         },
         {
             "achievement" : "Publication du site",
-            "date" : "19/04/21",
+            "date" : "19/04/2021",
             "details" : "Le site que vous consultez actuellement a été développé en PHP/HTML/CSS/JS par nous-même et nous l'hébergeons sur un VPS que nous avons loué chez Pulseheberg"
         }
     ],
