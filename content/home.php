@@ -5,12 +5,17 @@ function button_color(buttons, color){
         buttons[i].style.color= color;
     }
 }
+function dropbutton_color(buttons, color){
+    for(var i=0; i<buttons.length; i++) {
+        buttons[i].style.color= color;
+    }
+}
 
 navcolor = document.body.className == "dark" ? "#512500" : "#FFE5D0";
 buttonColor = document.body.className == "dark" ? "white" : "black";
 nav = document.getElementById("nav"); 
 buttons = Array.prototype.slice.call(document.getElementsByTagName("a"));
-
+dorpbuttons = Array.prototype.slice.call(document.querySelectorAll(".dropdown-content a"));
 
 if(window.innerWidth >= 1218){
     nav.style.backgroundColor="transparent";
@@ -24,6 +29,7 @@ if(window.innerWidth >= 1218){
   else{ //scrolling up
     nav.style.backgroundColor= navcolor;
     button_color(buttons, buttonColor);
+    dropbutton_color(dorpbuttons, "white");
   }
 })
 }
