@@ -1,6 +1,6 @@
 {
     "buttons" : ["Jouer", "Explorer"], 
-    "dropdown" : ["Le jeu", "L'équipe", "Suivre le projet" ,"Paramètres"],
+    "dropdown" : ["Le Jeu", "L'équipe", "Suivre le projet" ,"Paramètres"],
     "dropdown-content" : ["Documentation", "Avancement", "Version anglaise"],
     "theme" : ["Thème clair", "Thème sombre"],
     "description" : "Beyond Styx est un jeu de rôle au tour par tour pour un ou deux joueurs où l’on incarne des demi-dieux qui s’échappent des enfers. Le jeu se déroule dans une époque inspirée de la mythologie grecque. Le héros trouvera des ennemis qui vont tout faire pour l’empêcher d’atteindre son but. Au début du jeu, le joueur sélectionne le dieu avec lequel il a le plus d’affinités, ce dernier lui procurera alors certaines des capacités qui augmenteront au fur et à mesure des niveaux. Le joueur peut soit contrôler l’équipe de demi-dieux ou bien faire appel à un ami pour contrôler un membre du groupe.",
