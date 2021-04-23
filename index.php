@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="description" content="Beyond Styx official website">
-<meta name="keywords" content="project, video game, game, projet, epita, S2, projetS2, project, shcool project">
+<meta name="keywords" content="project, video game, game, projet, epita, S2, projetS2, project, shcool project, jeux vidéo">
 <meta name="author" content="C10H16N5O12P3">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
