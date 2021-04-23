@@ -37,8 +37,12 @@ if(window.innerWidth >= 1218){
 </script>
 
 
-
-<div class="background"></div> 
+<div class="responsive"><div class="background"></div> </div>
+<div class="pc">
+<video autoplay muted loop id="background_video">
+  <source src="videos/débat parallèle.mp4" type="video/mp4">
+</video>
+</div>
 <div class="center-box">
     <div id="bigtitle"><img src="icon/logo_text_web<?php if ($theme=="dark"){echo "_white";}?>.png" id="home-logo"></div>
     <div id="description"><?php echo ($txt->{'description'})?></div>

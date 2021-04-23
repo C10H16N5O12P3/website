@@ -170,6 +170,15 @@ body.dark #play_button_active {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#background_video{
+  min-width: 100%;
+  height: 548px;
+  top: 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #home-logo{
   width : 450px;
 }
