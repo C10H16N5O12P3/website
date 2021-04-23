@@ -562,3 +562,12 @@ body.dark footer{
     width: 100%;
   }
 }
+
+@media screen and (max-height : 702px) {
+  ul[class="left"]{
+    top : 100px;
+  }
+  #settings{
+    top: 200px;
+  }
+}
