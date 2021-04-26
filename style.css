@@ -289,6 +289,13 @@ progress{
   border-color: var(--dark-pink);
   border-width: 10px;
   border: var(--dark-pink) solid 3px;
+  text-align: center;
+  
+}
+progress::before{
+  content: attr(value)'%';
+  position: absolute;
+  font-size: 25px;
 }
 .progress_descirption{
   display: flex;
