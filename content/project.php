@@ -78,12 +78,13 @@
         </details>
 
     <!-- Progress -->
-    <div id="bigtitle" style="text-align: center;">Progrès</div>
+    <span id="progress"></span>
+    <div id="bigtitle" style="text-align: center;"><?php echo $txt->{"progress"};?></div>
     <div style="text-align: center;"><?php echo ($txt->{"progress_description"})?></div> 
     <div class="progress_box"><?php foreach($txt->{"progress_box"} as $p){echo '<div class="progress_descirption"><div>'.$p->{"title"}.'</div><progress value="'.$p->{"value"}.'" max="100"></progress></div>';}?></div>
     
     <!-- Evolution -->
-    <span id="progress"></span>
+    <span id="evolution"></span>
     <div id="bigtitle" style="text-align: center;"><?php echo ($txt->{"evolution_title"})?></div>
         <div style="text-align: center; ">
             <?php echo ($txt->{"evolution_description"})?>

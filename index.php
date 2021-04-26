@@ -45,6 +45,7 @@ if( isset( $_GET['theme'])){
   <div class="dropdown-content">
       <a href="index.php?page=project&amp;lang=<?php echo $lang?>&amp;theme=<?php echo $theme?>#doc"><?php echo ($txt->{'dropdown-content'})[0]?></a>
       <a href="index.php?page=project&amp;lang=<?php echo $lang?>&amp;theme=<?php echo $theme?>#progress"><?php echo ($txt->{'dropdown-content'})[1]?></a>
+      <a href="index.php?page=project&amp;lang=<?php echo $lang?>&amp;theme=<?php echo $theme?>#evolution"><?php echo ($txt->{'dropdown-content'})[2]?></a>
     </div>
   </li>
 </ul>
@@ -52,7 +53,7 @@ if( isset( $_GET['theme'])){
 <div class="right">
  <li class="dropdown"><a id="settings_title"><?php echo ($txt->{'dropdown'})[3]?></a>
  <div class="dropdown-content" id="dropdown-settings">
-      <a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>&amp;theme=<?php echo $theme?>"><?php echo ($txt->{'dropdown-content'})[2]?></a>
+      <a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>&amp;theme=<?php echo $theme?>"><?php echo ($txt->{'dropdown-content'})[3]?></a>
       <a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $lang?>&amp;theme=<?php if($theme=="dark") {echo "light";} else {echo "dark";}?>"><?php if($theme=="dark") {echo $txt->{"theme"}[0];} else {echo $txt->{"theme"}[1];}?></a>
     </div>
   </li>
@@ -68,7 +69,7 @@ if( isset( $_GET['theme'])){
 <span class="responsive" id="respmenu"></span> 
 <span class="responsive" id="respbar"></span>
 <span class="responsive" id="settings">
-  <li><a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>&amp;theme=<?php echo $theme?>"><?php echo ($txt->{'dropdown-content'})[2]?></a></li>
+  <li><a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $page?>&amp;lang=<?php if($lang=="en"){echo "fr";}else{echo "en";}?>&amp;theme=<?php echo $theme?>"><?php echo ($txt->{'dropdown-content'})[3]?></a></li>
   <li><a href="index.php?page=<?php echo $page?>&amp;lang=<?php echo $lang?>&amp;theme=<?php if($theme=="dark") {echo "light";} else {echo "dark";}?>"><?php if($theme=="dark") {echo "Light mode";} else {echo "Dark mode";}?></a></li>
 </span>
 <span><a href="index.php?lang=<?php echo $lang ?>"><img src="icon/C10<?php if ($theme=="dark"){echo "white";}?>.png" width="40px" id="logo"></a></span>

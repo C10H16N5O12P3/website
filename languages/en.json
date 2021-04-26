@@ -1,7 +1,7 @@
 {
     "buttons" : ["Play", "Explore"], 
     "dropdown" : ["The Game", "The team", "Project","Settings"],
-    "dropdown-content" : ["Documentation", "Progress", "Switch to french"],
+    "dropdown-content" : ["Documentation", "Progress", "Evolution", "Switch to french"],
     "theme" : ["Light mode", "Dark mode"],
     "description" : "Beyond Styx is a RPG with turn based strategy mecanics made for one or two players who incarn semi-gods escaping from Hell. The game takes place in a Greek mythology like period. The hero is going to face ennemies who will do everything to stop him. At the begenning, the player has to choose the god he will play, that will give several abilities upgradable throughout the journey. The player can whether control the squad or team up with a friend controlling the other member of the squad.",
     "presentation" : [
