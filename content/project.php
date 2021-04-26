@@ -25,7 +25,7 @@
         <details>
             <summary><?php echo ($txt->{"doc"}[1]->{"summary"})?></summary>
             <div class="pc">
-                <iframe src="documents/cdc.pdf" width="100%" height="500px">
+                <iframe src="documents/cdc.pdf#view=Fit" width="100%" height="500px">
                     <br><a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[1]->{"details"})?></a>
                 </iframe>
             </div>
@@ -38,7 +38,7 @@
         <details>
             <summary><?php echo ($txt->{"doc"}[2]->{"summary"})?></summary>
             <div class="pc">
-                <iframe src="documents/1st.pdf" width="100%" height="500px">
+                <iframe src="documents/1st.pdf#view=Fit" width="100%" height="500px">
                     <br><a href="documents/1st.pdf"><?php echo ($txt->{"doc"}[2]->{"details"})?></a>
                 </iframe>
             </div>
@@ -53,7 +53,7 @@
             <summary><?php echo ($txt->{"doc"}[3]->{"summary"})?></summary>
             
             <div class="pc">
-                <iframe src="documents/cdc.pdf" width="100%" height="500px">
+                <iframe src="documents/cdc.pdf#view=Fit" width="100%" height="500px">
                     <br><a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[3]->{"details"})?></a>
                 </iframe>
             </div>
@@ -67,7 +67,7 @@
             <summary><?php echo ($txt->{"doc"}[4]->{"summary"})?></summary>
 
             <div class="pc">
-                <iframe src="documents/cdc.pdf" width="100%" height="500px">
+                <iframe src="documents/cdc.pdf#view=Fit" width="100%" height="500px">
                     <br><a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[4]->{"details"})?></a>
                 </iframe>
             </div>
@@ -77,15 +77,20 @@
             </div>
         </details>
 
-    <!-- Progression -->
+    <!-- Progress -->
+    <div id="bigtitle" style="text-align: center;">Progrès</div>
+    <div style="text-align: center;"><?php echo ($txt->{"progress_description"})?></div> 
+    <div class="progress_box"><?php foreach($txt->{"progress_box"} as $p){echo '<div class="progress_descirption"><div>'.$p->{"title"}.'</div><progress value="'.$p->{"value"}.'" max="100"></progress></div>';}?></div>
+    
+    <!-- Evolution -->
     <span id="progress"></span>
-    <div id="bigtitle" style="text-align: center;"><?php echo ($txt->{"progress_title"})?></div>
+    <div id="bigtitle" style="text-align: center;"><?php echo ($txt->{"evolution_title"})?></div>
         <div style="text-align: center; ">
-            <?php echo ($txt->{"progress_description"})?>
+            <?php echo ($txt->{"evolution_description"})?>
         </div> 
     <?php
     $n = 0; 
-    foreach ($txt->{"progress"} as $p) {
+    foreach ($txt->{"evolution"} as $p) {
         if ($n%2 == 0){
             echo "<div class='flex' id='txt_right'><div class='img_flex'><span id='bigtitle'>".$p->{"date"}."</span></div><div class='txt_flex'><span id='bigtitle'>".$p->{"achievement"}."</span><div>".$p->{"details"}."</div></div></div>";
         }

@@ -21,7 +21,7 @@
     ],
 
     "team_title": "Présentation de l'équipe", 
-    "team_description" : "Nous sommes une petite équipe blabla gné gné",
+    "team_description" : "Une petite équipe de personnes motivés",
     "team": [
         {
             "name" : "Darius", 
@@ -100,9 +100,49 @@
         }
     ],
 
-    "progress_title" : "Avancement",
-    "progress_description" : "Suivez l'avancement du projet depuis son commencement", 
-    "progress" : [
+    "progress" : "Progrès",
+    "progress_description" : "Suivez l'avancement du porjet",
+    "progress_box" : [
+        {
+            "title" : "Graphisme",
+            "value" : 50
+        },
+        {
+            "title" : "Audio",
+            "value" : 25
+        },
+        {
+            "title" : "Interface",
+            "value" : 60
+        },
+        {
+            "title" : "Site Web",
+            "value" : 100
+        },
+        {
+            "title" : "Multijoueur",
+            "value" : 80
+        },
+        {
+            "title" : "Caméra",
+            "value" : 75
+        },
+        {
+            "title" : "Gameplay",
+            "value" : 80
+        },
+        {
+            "title" : "Level Design",
+            "value" : 60
+        },
+        {
+            "title" : "Intelligence Artificielle",
+            "value" : 50
+        }
+    ],
+    "evolution_title" : "Avancement",
+    "evolution_description" : "Les dates clés du projet", 
+    "evolution" : [
         {
             "achievement" : "Début du projet",
             "date" : "29/01/2021",
@@ -121,6 +161,7 @@
     ],
 
     "download" : "Télécharger",
+    "download_description" : "Selectionnez votre plateforme",
     "card" : [
         {
             "platform" : "Windows",
@@ -133,7 +174,7 @@
             "txt" : "Ceci est une démo"
         }
     ],
-    
+
     "footer" : "Nos réseaux", 
 
     "error" : [

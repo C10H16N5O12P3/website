@@ -98,9 +98,49 @@
         }
     ],
 
-    "progress_title" : "Progress",
-    "progress_description" : "Follow the progress of the project since its beginning", 
-    "progress" : [
+    "progress" : "Progrès",
+    "progress_description" : "Follow the progress",
+    "progress_box" : [
+        {
+            "title" : "Graphics",
+            "value" : 50
+        },
+        {
+            "title" : "Audio",
+            "value" : 25
+        },
+        {
+            "title" : "Interface",
+            "value" : 60
+        },
+        {
+            "title" : "Website",
+            "value" : 100
+        },
+        {
+            "title" : "Multiplayer",
+            "value" : 80
+        },
+        {
+            "title" : "Camera",
+            "value" : 75
+        },
+        {
+            "title" : "Gameplay",
+            "value" : 80
+        },
+        {
+            "title" : "Level Design",
+            "value" : 60
+        },
+        {
+            "title" : "Artificial intelligence",
+            "value" : 50
+        }
+    ],
+    "evolution_title" : "Progress",
+    "evolution_description" : "Key dates of the project", 
+    "evolution" : [
         {
             "achievement" : "Start of the project",
             "date" : "xx/xx/xx",
@@ -119,6 +159,7 @@
     ],
 
     "download" : "Download",
+    "download_description" : "Select on the platform of your choice",
     "card" : [
         {
             "platform" : "Windows",
