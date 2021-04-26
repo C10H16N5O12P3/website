@@ -53,13 +53,13 @@
             <summary><?php echo ($txt->{"doc"}[3]->{"summary"})?></summary>
             
             <div class="pc">
-                <iframe src="documents/cdc.pdf#view=Fit" width="100%" height="500px">
-                    <br><a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[3]->{"details"})?></a>
+                <iframe src="documents/2nd.pdf#view=Fit" width="100%" height="500px">
+                    <br><a href="documents/2nd.pdf"><?php echo ($txt->{"doc"}[3]->{"details"})?></a>
                 </iframe>
             </div>
 
             <div class="responsive">
-                <br><a href="documents/cdc.pdf"><?php echo ($txt->{"doc"}[3]->{"details"})?></a>
+                <br><a href="documents/2nd.pdf"><?php echo ($txt->{"doc"}[3]->{"details"})?></a>
             </div>
         </details>
 
