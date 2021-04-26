@@ -138,8 +138,8 @@
             "value" : 50
         }
     ],
-    "evolution_title" : "Progress",
-    "evolution_description" : "Key dates of the project", 
+    "evolution_title" : "Key dates of the project",
+    "evolution_description" : "Discover key dates of the project", 
     "evolution" : [
         {
             "achievement" : "Start of the project",
