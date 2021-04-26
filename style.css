@@ -292,6 +292,51 @@ details{
 .download_content a{
   color: white;
 }
+.card_box{
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+.card{
+  transition: all 0.5s;
+}
+/*
+.card:hover{
+  transform: translateY(-5px);
+}*/
+
+.card_background{
+  width: 176px;
+  height: 176px;
+  background-color: var(--dark-pink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card_background img{
+  transition: all 0.5s;
+}
+.card:hover .card_background img{
+  filter: opacity(50%);
+}
+
+.card_description{
+  position: absolute;
+  width: 176px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  transition: all 0.5s;
+  height: 0px;
+  opacity: 0%;
+}
+.card:hover .card_description{
+  opacity: 100%;
+  transform: translateY(-60px);
+  height: 60px;
+}
 /*footer*/
 
 .push{
