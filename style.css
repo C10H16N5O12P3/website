@@ -305,7 +305,6 @@ details{
 }
 
 /*download*/
-/*download*/
 #progress[value]::-webkit-progress-bar{
   background-color: #512500;
 }
@@ -340,6 +339,7 @@ details{
 }
 
 .card_background img{
+  width: 125px;
   transition: all 0.5s;
 }
 .card:hover .card_background img{
@@ -616,6 +616,17 @@ body.dark footer{
   }
   #home-logo{
     width: 100%;
+  }
+  /*download*/
+  .card_background{
+    width: 100px;
+    height: 100px;
+  }
+  .card_description{
+    display: none;
+  }
+  .card_background img{
+    width: 50px;
   }
 }
 

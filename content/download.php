@@ -4,8 +4,8 @@
 <div id="bigtitle" style="text-align:center">Télécharger</div>
 <div class="">
     <div class ="card_box">
-        <div class="card"><div class="card_background"><img src="icon/download/windows.png" width="125px"></div><div class="card_description">Version pour windows<br>Ceci est une demo</br></div></div>
-        <a href=""><div class="card"><div class="card_background"><img src="icon/download/linux.png" width="125px"></div><div class="card_description">Version pour linux<br>Ceci est une demo</br></div></div></a>
+        <div class="card"><div class="card_background"><img src="icon/download/windows.png"></div><div class="card_description">Version pour windows<br>Ceci est une demo</br></div></div>
+        <a href=""><div class="card"><div class="card_background"><img src="icon/download/linux.png"></div><div class="card_description">Version pour linux<br>Ceci est une demo</br></div></div></a>
     </div>
 </div>
 <div class="responsive">
