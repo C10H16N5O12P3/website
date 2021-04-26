@@ -105,15 +105,15 @@
     "progress_box" : [
         {
             "title" : "Graphisme",
-            "value" : 50
+            "value" : 75
         },
         {
             "title" : "Audio",
-            "value" : 25
+            "value" : 50
         },
         {
             "title" : "Interface",
-            "value" : 60
+            "value" : 70
         },
         {
             "title" : "Site Web",
@@ -125,7 +125,7 @@
         },
         {
             "title" : "Caméra",
-            "value" : 75
+            "value" : 90
         },
         {
             "title" : "Gameplay",
