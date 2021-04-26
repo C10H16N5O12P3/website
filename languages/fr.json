@@ -100,7 +100,7 @@
         }
     ],
 
-    "progress" : "Progrès",
+    "progress" : "Progression",
     "progress_description" : "Suivez l'avancement du porjet",
     "progress_box" : [
         {
