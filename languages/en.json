@@ -118,7 +118,20 @@
         }
     ],
 
-    "download" : "Coming soon :", 
+    "download" : "Télécharger",
+    "card" : [
+        {
+            "platform" : "Windows",
+            "description" : "Windows version",
+            "txt" : "This is a demo"
+        },
+        {
+            "platform" : "Linux",
+            "description" : "Linux version",
+            "txt" : "This is a demo"
+        }
+    ],
+     
     "footer" : "Find us :",
 
     "error" : [
