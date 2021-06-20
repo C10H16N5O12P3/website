@@ -103,15 +103,15 @@
     "progress_box" : [
         {
             "title" : "Graphics",
-            "value" : 75
+            "value" : 100
         },
         {
             "title" : "Audio",
-            "value" : 50
+            "value" : 100
         },
         {
             "title" : "Interface",
-            "value" : 70
+            "value" : 100
         },
         {
             "title" : "Website",
@@ -119,23 +119,23 @@
         },
         {
             "title" : "Multiplayer",
-            "value" : 80
+            "value" : 100
         },
         {
             "title" : "Camera",
-            "value" : 90
+            "value" : 100
         },
         {
             "title" : "Gameplay",
-            "value" : 80
+            "value" : 100
         },
         {
             "title" : "Level Design",
-            "value" : 60
+            "value" : 100
         },
         {
             "title" : "Artificial intelligence",
-            "value" : 50
+            "value" : 100
         }
     ],
     "evolution_title" : "Key dates of the project",
@@ -143,18 +143,33 @@
     "evolution" : [
         {
             "achievement" : "Start of the project",
-            "date" : "xx/xx/xx",
-            "details" : ""
+            "date" : "29/01/2021",
+            "details" : "Once the specifications were validated, we could start the project."
         },
         {
             "achievement" : "First presentation",
-            "date" : "xx/xx/xx",
-            "details" : ""
+            "date" : "02/03/2021",
+            "details" : "We presented the first advances on the game"
         },
         {
             "achievement" : "Publication of the website",
             "date" : "19/04/21",
             "details" : "The site you are currently looking at was developed in PHP/HTML/CSS/JS by us and we are hosting it on a VPS that we rented from Pulseheberg"
+        },
+        {
+            "achievement" : "Release of the demo",
+            "date" : "27/04/2021",
+            "details" : "Download the demo of the game and discover the first map, the loot box system and the combat system."
+        },
+        {
+            "achievement" : "Second presentation",
+            "date" : "27/04/2021",
+            "details" : "During this presentation we presented the site and we played the multiplayer demo of the game."
+        },
+        {
+            "achievement" : "Release of the demo",
+            "date" : "27/04/2021",
+            "details" : "The game is finally finished, it contains all the maps, an improved combat system and many new features to discover now"
         }
     ],
 

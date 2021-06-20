@@ -105,15 +105,15 @@
     "progress_box" : [
         {
             "title" : "Graphisme",
-            "value" : 75
+            "value" : 100
         },
         {
             "title" : "Audio",
-            "value" : 50
+            "value" : 100
         },
         {
             "title" : "Interface",
-            "value" : 70
+            "value" : 100
         },
         {
             "title" : "Site Web",
@@ -121,23 +121,23 @@
         },
         {
             "title" : "Multijoueur",
-            "value" : 80
+            "value" : 100
         },
         {
             "title" : "Caméra",
-            "value" : 90
+            "value" : 100
         },
         {
             "title" : "Gameplay",
-            "value" : 80
+            "value" : 100
         },
         {
             "title" : "Level Design",
-            "value" : 60
+            "value" : 100
         },
         {
             "title" : "Intelligence Artificielle",
-            "value" : 50
+            "value" : 100
         }
     ],
     "evolution_title" : "Avancement",
@@ -157,6 +157,21 @@
             "achievement" : "Publication du site",
             "date" : "19/04/2021",
             "details" : "Le site que vous consultez actuellement a été développé en PHP/HTML/CSS/JS par nous-même et nous l'hébergeons sur un VPS que nous avons loué chez Pulseheberg"
+        },
+        {
+            "achievement" : "Sortie de la démo",
+            "date" : "27/04/2021",
+            "details" : "La démo du jeu permet de découvrir la première map, le système de loot des coffres ainsi que le système de combat."
+        },
+        {
+            "achievement" : "Deuxième soutenance",
+            "date" : "27/04/2021",
+            "details" : "Lors de cette présentation nous avons présenté le site et nous avons joué à la démo multijoueur du jeu."
+        },
+        {
+            "achievement" : "Sortie du jeu",
+            "date" : "24/06/2021",
+            "details" : "Le jeu est enfin fini, il contient toutes les map, un système de combat amélioré ainsi que plein de nouvelles fonctionnalités à découvrir dès maintenant"
         }
     ],
 
